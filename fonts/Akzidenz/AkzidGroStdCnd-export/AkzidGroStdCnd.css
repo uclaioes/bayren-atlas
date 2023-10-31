@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Akzidenz";
-    src:url("/fonts/Akzidenz/AkzidGroStdCnd-export/AkzidGroStdCnd.woff2") format("woff2"),url("/fonts/Akzidenz/AkzidGroStdCnd-export/AkzidGroStdCnd.woff") format("woff"),url("/fonts/Akzidenz/AkzidGroStdCnd-export/AkzidGroStdCnd.otf") format("opentype");
+    src:url("AkzidGroStdCnd.woff2") format("woff2"),url("AkzidGroStdCnd.woff") format("woff"),url("AkzidGroStdCnd.otf") format("opentype");
     font-weight:normal;
 }
         
