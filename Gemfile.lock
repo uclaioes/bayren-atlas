@@ -65,7 +65,7 @@ GEM
     wdm (0.1.1)
 
 PLATFORMS
-  ruby
+  arm64-darwin-23
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
@@ -78,4 +78,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.4.22
