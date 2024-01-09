@@ -1627,16 +1627,121 @@
 </head>
 
 <body>
+
+
+  <header>
+    <nav class="nav" id="nav">
+      <a href="bld.html">Building Type</a>
+      <a href="sqft.html">Building Size</a>
+      <a href="vintage.html">Building Vintage</a>
+      <a href="income.html">Residential Income</a>
+      <a href="profiles.html">Profiles</a>
+    </nav>
+    <a href="javascript:void(0);" id="menu-toggle" onclick="togglemenu()">
+      <div class="menu-toggle__bar1"></div>
+      <div class="menu-toggle__bar2"></div>
+      <div class="menu-toggle__bar3"></div>
+    </a>
+  </header>
+
+  <style>
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      margin: 0;
+    }
+
+    .nav {
+      position: fixed;
+      transform: translateX(100%);
+      transition: transform 0.2s;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 50%;
+      padding-top: 41px;
+      border: 1px solid black;
+      background-color: white;
+      z-index: 1;
+    }
+
+    .nav a {
+      display: block;
+      padding: 11px 0 10px 30px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .nav a:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    .nav.nav--open {
+      transform: translateX(0);
+    }
+
+    #menu-toggle {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 8px;
+      z-index: 2;
+    }
+
+    .menu-toggle__bar1,
+    .menu-toggle__bar2,
+    .menu-toggle__bar3 {
+      width: 21px;
+      height: 3px;
+      background-color: #000000;
+      margin: 4px 0;
+      transition: 0.3s;
+    }
+
+    .menu-toggle--open .menu-toggle__bar1 {
+      transform: translate(0, 7px) rotate(-45deg);
+    }
+
+    .menu-toggle--open .menu-toggle__bar2 {
+      opacity: 0;
+    }
+
+    .menu-toggle--open .menu-toggle__bar3 {
+      transform: translate(0, -7px) rotate(45deg);
+    }
+
+  </style>
+
+  <script>
+
+    function togglemenu() {
+      var x = document.getElementById("nav");
+      if (x.className === "nav") {
+        x.className += " nav--open";
+      } else {
+        x.className = "nav";
+      }
+      var element = document.getElementById("menu-toggle");
+      element.classList.toggle("menu-toggle--open");
+    }
+
+  </script>
+
   <div id="__next"><a href="index.html">
       <div class="MuiBox-root jss19 jss18"><img width="auto" height="25" src="assets/images/bayren-logo-dark.png"
           alt="main logo" /></div>
     </a>
-    <div class="MuiBox-root jss33 jss20 jss29"><button
+    <!-- <div class="MuiBox-root jss33 jss20 jss29"><button
         class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0" type="button"><span
           class="MuiButton-label">menu<span class="MuiButton-endIcon MuiButton-iconSizeMedium"><svg
               class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-            </svg></span></span></button></div>
+            </svg></span></span></button></div> -->
     <div class="MuiBox-root jss39 jss37"
       style="background-image:url(assets/images/1280x1280@2x.png);background-size:cover">
       <div class="MuiBox-root jss40 jss35">
