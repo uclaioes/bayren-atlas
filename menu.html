@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" href="../favicon.png.html" />
+  <link href="../../fonts.googleapis.com/css%3Ffamily=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i.css"
+    rel="stylesheet" />
+  <link href="../../fonts.googleapis.com/css%3Ffamily=Source+Code+Pro:400,400i,500,500i,700,700i&amp;display=swap.css"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charSet="utf-8" />
+  <link href="../fonts/Akzidenz/AkzidGroStdBolCnd-export/AkzidGroStdBolCnd.css" rel="stylesheet" />
+  <link href="../fonts/Akzidenz/AkzidGroStdCnd-export/AkzidGroStdCnd.css" rel="stylesheet" />
+  <link href="../../fonts.googleapis.com/css2%3Ffamily=Open+Sans:wght@400%3B700&amp;display=swap.css"
+    rel="stylesheet" />
+  <title>BayREN Energy Atlas - Map Building Type</title>
+  <link rel="preload" href="../_next/static/css/4dddfb602947c03d9c00.css" as="style" />
+  <link rel="stylesheet" href="../_next/static/css/4dddfb602947c03d9c00.css" data-n-g="" /><noscript
+    data-n-css="true"></noscript>
+  <link rel="preload" href="../_next/static/chunks/main-290ebfac376e984b8fe1.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/webpack-eb080e3f091731f228fb.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/framework.e52e59e84b825dca1da0.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/c727088c.c29837965afa66f5f896.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/0d62de73.a35fdaab93d8bac759e9.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/e971612a.7c7fe3f0e85768502e28.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/c78d26b1.e324b02adbf6f8435b0d.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/bc144d75.57edb0ebb44799f0ff53.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/043c029d.b48253d5ce017052e210.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/c1719c42.229ea6c50c65a7cef948.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/3c0343d8.bdad163368f40845e6d7.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/680cea3a.cc9fb500879ba32c8902.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/commons.092ef54adc13f8e24eb7.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/c9b338d800739b4b5e62b53e416b30ce44f0eed8.99622438cad1d33e2c79.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/5707714e36b9ce6aa503165e030622e1c125cb0b.9d797953d3cb0c13216f.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/991d8100b42293b6351a66f05eeeaf280f7fb421.4b7690c24cf21f9dfa3c.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/0826a326ab5360856587b28abb66aa48172bcf52.746cd16a491a0fbbc60b.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/5cf240b130b30b2c8646cc02e86335a6724c06ff.733ef3620f03ed996e48.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/8997bf1e148f07a8ee90bbaa8e59724e7452f07b.bb4542811845f7ba676b.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/4fed33a2731842824ebdfefc5d3fba914d1bed92.9e225517a6400b6b040c.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/33fce1a36e02b2325a6790903f23e597e0b152e6.d4293ee8f797fd78a948.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/5dc0c1112afa90121a4a69afe0cf0e5a0798933f.49f820376796af7937a2.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/31554f0713a6af9c1f5823e350eaa4e9a092ca4a.fd15831f4941f21dea64.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/e2bcadb233bf594a70811811940d60b88d261e05.26c0e696e0a90f14aa9e.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/68208ece48810e32f7ff1da78b1fc00f66c22573.1e00e6e66fa8a9170043.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/ff2d7d441ba3de44cbd631a93637f54eddf5feb1.45adc0ab33e5e3392f89.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/pages/_app-85a82a3bc28ea9ae43af.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/fe95a7ce.110b39e723630b8be045.js" as="script" />
+  <link rel="preload" href="../_next/static/chunks/87459ff3110e3822bc16ef3717708ed26ee84fea.d1b21b6138df433f68f7.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/a30e00f1f49cf273d93632edca5773cc34835eca.28b39a342fb19d7c92af.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/7bce1a5c944e992c8ab371a20c2373c2a9d975e2.7eeb346268dc3dfb60c1.js"
+    as="script" />
+  <link rel="preload" href="../_next/static/chunks/pages/map/[theme]-e844de4f436d231e5929.js" as="script" />
+  <style id="jss-server-side">
+    .MuiDrawer-docked {
+      flex: 0 0 auto;
+    }
+
+    .MuiDrawer-paper {
+      top: 0;
+      flex: 1 0 auto;
+      height: 100%;
+      display: flex;
+      outline: 0;
+      z-index: 1200;
+      position: fixed;
+      overflow-y: auto;
+      flex-direction: column;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .MuiDrawer-paperAnchorLeft {
+      left: 0;
+      right: auto;
+    }
+
+    .MuiDrawer-paperAnchorRight {
+      left: auto;
+      right: 0;
+    }
+
+    .MuiDrawer-paperAnchorTop {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      height: auto;
+      max-height: 100%;
+    }
+
+    .MuiDrawer-paperAnchorBottom {
+      top: auto;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: auto;
+      max-height: 100%;
+    }
+
+    .MuiDrawer-paperAnchorDockedLeft {
+      border-right: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiDrawer-paperAnchorDockedTop {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiDrawer-paperAnchorDockedRight {
+      border-left: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiDrawer-paperAnchorDockedBottom {
+      border-top: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiSvgIcon-root {
+      fill: currentColor;
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      font-size: 1.5rem;
+      transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      flex-shrink: 0;
+      user-select: none;
+    }
+
+    .MuiSvgIcon-colorPrimary {
+      color: #215F8A;
+    }
+
+    .MuiSvgIcon-colorSecondary {
+      color: #6A3956;
+    }
+
+    .MuiSvgIcon-colorAction {
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    .MuiSvgIcon-colorError {
+      color: #f44336;
+    }
+
+    .MuiSvgIcon-colorDisabled {
+      color: rgba(0, 0, 0, 0.26);
+    }
+
+    .MuiSvgIcon-fontSizeInherit {
+      font-size: inherit;
+    }
+
+    .MuiSvgIcon-fontSizeSmall {
+      font-size: 1.25rem;
+    }
+
+    .MuiSvgIcon-fontSizeLarge {
+      font-size: 2.1875rem;
+    }
+
+    .MuiButtonBase-root {
+      color: inherit;
+      border: 0;
+      cursor: pointer;
+      margin: 0;
+      display: inline-flex;
+      outline: 0;
+      padding: 0;
+      position: relative;
+      align-items: center;
+      user-select: none;
+      border-radius: 0;
+      vertical-align: middle;
+      -moz-appearance: none;
+      justify-content: center;
+      text-decoration: none;
+      background-color: transparent;
+      -webkit-appearance: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .MuiButtonBase-root::-moz-focus-inner {
+      border-style: none;
+    }
+
+    .MuiButtonBase-root.Mui-disabled {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    @media print {
+      .MuiButtonBase-root {
+        color-adjust: exact;
+      }
+    }
+
+    .MuiButton-root {
+      color: #000000;
+      padding: 6px 16px;
+      font-size: 20px;
+      min-width: 64px;
+      box-sizing: border-box;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      font-family: Akzidenz, sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+      border-radius: 3px;
+      text-transform: none;
+    }
+
+    .MuiButton-root:hover {
+      text-decoration: none;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    .MuiButton-root.Mui-disabled {
+      color: rgba(0, 0, 0, 0.26);
+    }
+
+    .MuiButton-root.MuiButton-outlinedSizeSmall {
+      font-size: 17px;
+    }
+
+    @media (hover: none) {
+      .MuiButton-root:hover {
+        background-color: transparent;
+      }
+    }
+
+    .MuiButton-root:hover.Mui-disabled {
+      background-color: transparent;
+    }
+
+    .MuiButton-label {
+      width: 100%;
+      display: inherit;
+      align-items: inherit;
+      justify-content: inherit;
+    }
+
+    .MuiButton-text {
+      padding: 6px 8px;
+    }
+
+    .MuiButton-text.MuiButton-sizeSmall {
+      font-size: 14px;
+      font-family: Open Sans, sans-serif;
+      font-weight: 400;
+      line-height: 1.43;
+    }
+
+    .MuiButton-textPrimary {
+      color: #215F8A;
+    }
+
+    .MuiButton-textPrimary:hover {
+      background-color: rgba(33, 95, 138, 0.04);
+    }
+
+    @media (hover: none) {
+      .MuiButton-textPrimary:hover {
+        background-color: transparent;
+      }
+    }
+
+    .MuiButton-textSecondary {
+      color: #6A3956;
+    }
+
+    .MuiButton-textSecondary:hover {
+      background-color: rgba(106, 57, 86, 0.04);
+    }
+
+    @media (hover: none) {
+      .MuiButton-textSecondary:hover {
+        background-color: transparent;
+      }
+    }
+
+    .MuiButton-outlined {
+      border: 1px solid rgba(0, 0, 0, 0.23);
+      padding: 5px 15px;
+    }
+
+    .MuiButton-outlined.Mui-disabled {
+      border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiButton-outlinedPrimary {
+      color: #215F8A;
+      border: 1px solid rgba(33, 95, 138, 0.5);
+    }
+
+    .MuiButton-outlinedPrimary:hover {
+      border: 1px solid #215F8A;
+      background-color: rgba(33, 95, 138, 0.04);
+    }
+
+    @media (hover: none) {
+      .MuiButton-outlinedPrimary:hover {
+        background-color: transparent;
+      }
+    }
+
+    .MuiButton-outlinedSecondary {
+      color: #6A3956;
+      border: 1px solid rgba(106, 57, 86, 0.5);
+    }
+
+    .MuiButton-outlinedSecondary:hover {
+      border: 1px solid #6A3956;
+      background-color: rgba(106, 57, 86, 0.04);
+    }
+
+    .MuiButton-outlinedSecondary.Mui-disabled {
+      border: 1px solid rgba(0, 0, 0, 0.26);
+    }
+
+    @media (hover: none) {
+      .MuiButton-outlinedSecondary:hover {
+        background-color: transparent;
+      }
+    }
+
+    .MuiButton-contained {
+      color: rgba(0, 0, 0, 0.87);
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+      background-color: #e0e0e0;
+    }
+
+    .MuiButton-contained:hover {
+      box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+      background-color: #d5d5d5;
+    }
+
+    .MuiButton-contained.Mui-focusVisible {
+      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiButton-contained:active {
+      box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiButton-contained.Mui-disabled {
+      color: rgba(0, 0, 0, 0.26);
+      box-shadow: none;
+      background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    @media (hover: none) {
+      .MuiButton-contained:hover {
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+        background-color: #e0e0e0;
+      }
+    }
+
+    .MuiButton-contained:hover.Mui-disabled {
+      background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    .MuiButton-containedPrimary {
+      color: #fff;
+      background-color: #215F8A;
+    }
+
+    .MuiButton-containedPrimary:hover {
+      background-color: #0A3E62;
+    }
+
+    @media (hover: none) {
+      .MuiButton-containedPrimary:hover {
+        background-color: #215F8A;
+      }
+    }
+
+    .MuiButton-containedSecondary {
+      color: #FFFFFF;
+      background-color: #6A3956;
+    }
+
+    .MuiButton-containedSecondary:hover {
+      background-color: rgb(74, 39, 60);
+    }
+
+    @media (hover: none) {
+      .MuiButton-containedSecondary:hover {
+        background-color: #6A3956;
+      }
+    }
+
+    .MuiButton-disableElevation {
+      box-shadow: none;
+    }
+
+    .MuiButton-disableElevation:hover {
+      box-shadow: none;
+    }
+
+    .MuiButton-disableElevation.Mui-focusVisible {
+      box-shadow: none;
+    }
+
+    .MuiButton-disableElevation:active {
+      box-shadow: none;
+    }
+
+    .MuiButton-disableElevation.Mui-disabled {
+      box-shadow: none;
+    }
+
+    .MuiButton-colorInherit {
+      color: inherit;
+      border-color: currentColor;
+    }
+
+    .MuiButton-textSizeSmall {
+      padding: 4px 5px;
+      font-size: 0.8125rem;
+    }
+
+    .MuiButton-textSizeLarge {
+      padding: 8px 11px;
+      font-size: 0.9375rem;
+    }
+
+    .MuiButton-outlinedSizeSmall {
+      padding: 3px 9px;
+      font-size: 0.8125rem;
+    }
+
+    .MuiButton-outlinedSizeLarge {
+      padding: 7px 21px;
+      font-size: 0.9375rem;
+    }
+
+    .MuiButton-containedSizeSmall {
+      padding: 4px 10px;
+      font-size: 0.8125rem;
+    }
+
+    .MuiButton-containedSizeLarge {
+      padding: 8px 22px;
+      font-size: 0.9375rem;
+    }
+
+    .MuiButton-fullWidth {
+      width: 100%;
+    }
+
+    .MuiButton-startIcon {
+      display: inherit;
+      margin-left: -4px;
+      margin-right: 8px;
+    }
+
+    .MuiButton-startIcon.MuiButton-iconSizeSmall {
+      margin-left: -2px;
+    }
+
+    .MuiButton-endIcon {
+      display: inherit;
+      margin-left: 8px;
+      margin-right: -4px;
+    }
+
+    .MuiButton-endIcon.MuiButton-iconSizeSmall {
+      margin-right: -2px;
+    }
+
+    .MuiButton-iconSizeSmall>*:first-child {
+      font-size: 18px;
+    }
+
+    .MuiButton-iconSizeMedium>*:first-child {
+      font-size: 20px;
+    }
+
+    .MuiButton-iconSizeLarge>*:first-child {
+      font-size: 22px;
+    }
+
+    .jss19 {}
+
+    .jss33 {}
+
+    .jss2 {
+      top: 0;
+      width: 100%;
+      display: flex;
+      padding: 8px;
+      position: fixed;
+      transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms, top 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+      align-items: center;
+      pointer-events: none;
+      justify-content: flex-end;
+    }
+
+    .jss4 {
+      margin-right: 8px;
+      pointer-events: all;
+    }
+
+    .jss5 {
+      color: #fff;
+      pointer-events: all;
+    }
+
+    .jss6 {
+      color: #fff;
+      display: flex;
+      padding: 8px;
+      box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+      align-items: center;
+      margin-right: 8px;
+      pointer-events: all;
+      background-color: #403CFA;
+    }
+
+    .jss7 {
+      margin-right: 8px;
+      pointer-events: all;
+    }
+
+    .jss8 {
+      color: #fff;
+      margin-top: 8px;
+      pointer-events: all;
+      background-color: #403CFA;
+    }
+
+    .jss9 {
+      width: 400px;
+      height: 100%;
+      padding: 24px;
+      background-color: #fff;
+    }
+
+    .jss10 {
+      display: flex;
+      margin-top: 16px;
+      flex-direction: column;
+    }
+
+    .jss11 {
+      height: auto;
+    }
+
+    .jss12 {
+      padding: 8px 16px;
+      white-space: normal;
+    }
+
+    .jss13 {
+      margin-top: 8px;
+      margin-left: 12px;
+    }
+
+    .jss14 {
+      border: 1px solid #bdbdbd;
+      cursor: pointer;
+      height: 250px;
+      transition: border-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+      border-radius: 4px;
+      background-size: cover;
+      background-repeat: norepeat;
+    }
+
+    .jss14:hover {
+      border-color: #424242;
+    }
+
+    .jss15 {
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      height: 90%;
+      overflow: auto;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      background: #fff;
+    }
+
+    .jss16 {
+      z-index: 1300;
+      transform: none;
+    }
+
+    .jss17 {
+      top: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    strong,
+    b {
+      font-weight: 700;
+    }
+
+    body {
+      color: #000000;
+      margin: 0;
+      font-size: 14px;
+      font-family: Open Sans, sans-serif;
+      font-weight: 400;
+      line-height: 1.43;
+      background-color: #fafafa;
+    }
+
+    @media print {
+      body {
+        background-color: #fff;
+      }
+    }
+
+    body::backdrop {
+      background-color: #fafafa;
+    }
+
+    *[data-grid-inset] {
+      background-color: red;
+    }
+
+    html {
+      font-size: 16px;
+      min-height: 100%;
+      scroll-behavior: smooth;
+      background-color: #fff;
+    }
+
+    body {
+      height: 100%;
+      overflow-x: hidden;
+      background-color: #fff;
+    }
+
+    #__next {
+      height: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    b {
+      font-weight: 600;
+    }
+
+    canvas:focus {
+      outline: none;
+    }
+
+    .jss20 {
+      top: 0;
+      right: 32px;
+      height: 60px;
+      display: flex;
+      z-index: 1201;
+      position: fixed;
+      align-items: center;
+    }
+
+    @media (min-width:1920px) {
+      .jss20 {
+        right: calc((100vw - 1920px) / 2 + 16px);
+      }
+    }
+
+    @media (max-width:1023.95px) {
+      .jss20 {
+        color: #fff !important;
+        mix-blend-mode: difference;
+      }
+    }
+
+    .jss21 {
+      top: 8px;
+      right: 8px;
+      z-index: 1201;
+      position: absolute;
+    }
+
+    .jss24 {
+      padding-top: 40px;
+    }
+
+    .jss25 {
+      padding-left: 40px;
+    }
+
+    .jss26 {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .jss27 {
+      margin-bottom: -8px;
+    }
+
+    .jss28 {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 64px;
+      z-index: 500;
+      position: fixed;
+      backdrop-filter: blur(8px);
+    }
+
+    .jss29 {
+      color: #000;
+    }
+
+    .jss30 {
+      width: calc(100vh / 3);
+    }
+
+    .jss31 {
+      width: calc(100vh / 3);
+    }
+
+    .jss32 {
+      padding-left: NaN;
+    }
+
+    .jss18 {
+      top: 0;
+      left: 32px;
+      height: 60px;
+      display: flex;
+      z-index: 1201;
+      position: fixed;
+      align-items: center;
+      mix-blend-mode: multiply;
+    }
+
+    @media (min-width:1920px) {
+      .jss18 {
+        left: calc((100vw - 1920px) / 2 + 16px);
+        position: absolute;
+      }
+    }
+
+    .jss35 {
+      left: 0;
+      color: #fff;
+      bottom: 0;
+      padding: 8px;
+      z-index: 9999;
+      position: fixed;
+      font-size: 11px;
+      font-family: Open Sans, sans-serif;
+      font-weight: 400;
+      line-height: 1.66;
+      background-color: #000;
+    }
+
+    .jss34 {
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      display: flex;
+      padding: 16px 32px;
+      z-index: 9999;
+      position: fixed;
+      border-top: 1px solid #0A3E62;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+    }
+
+    .jss1 {
+      width: 100%;
+      z-index: 9999;
+      position: fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="__next"><a href="../index.html">
+      <div class="MuiBox-root jss19 jss18"><img width="auto" height="25" src="../bayren-logo-dark.png"
+          alt="main logo" /></div>
+    </a>
+    <div class="MuiBox-root jss33 jss20 jss29"><button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0" type="button"><span
+          class="MuiButton-label">menu<span class="MuiButton-endIcon MuiButton-iconSizeMedium"><svg
+              class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </svg></span></span></button></div>
+  </div>
+  <script nomodule="" src="../_next/static/chunks/polyfills-ef2ee6e28592f0b5faa8.js"></script>
+  <script src="../_next/static/chunks/main-290ebfac376e984b8fe1.js" async=""></script>
+  <script src="../_next/static/chunks/webpack-eb080e3f091731f228fb.js" async=""></script>
+  <script src="../_next/static/chunks/framework.e52e59e84b825dca1da0.js" async=""></script>
+  <script src="../_next/static/chunks/c727088c.c29837965afa66f5f896.js" async=""></script>
+  <script src="../_next/static/chunks/0d62de73.a35fdaab93d8bac759e9.js" async=""></script>
+  <script src="../_next/static/chunks/e971612a.7c7fe3f0e85768502e28.js" async=""></script>
+  <script src="../_next/static/chunks/c78d26b1.e324b02adbf6f8435b0d.js" async=""></script>
+  <script src="../_next/static/chunks/bc144d75.57edb0ebb44799f0ff53.js" async=""></script>
+  <script src="../_next/static/chunks/043c029d.b48253d5ce017052e210.js" async=""></script>
+  <script src="../_next/static/chunks/c1719c42.229ea6c50c65a7cef948.js" async=""></script>
+  <script src="../_next/static/chunks/3c0343d8.bdad163368f40845e6d7.js" async=""></script>
+  <script src="../_next/static/chunks/680cea3a.cc9fb500879ba32c8902.js" async=""></script>
+  <script src="../_next/static/chunks/commons.092ef54adc13f8e24eb7.js" async=""></script>
+  <script src="../_next/static/chunks/c9b338d800739b4b5e62b53e416b30ce44f0eed8.99622438cad1d33e2c79.js"
+    async=""></script>
+  <script src="../_next/static/chunks/5707714e36b9ce6aa503165e030622e1c125cb0b.9d797953d3cb0c13216f.js"
+    async=""></script>
+  <script src="../_next/static/chunks/991d8100b42293b6351a66f05eeeaf280f7fb421.4b7690c24cf21f9dfa3c.js"
+    async=""></script>
+  <script src="../_next/static/chunks/0826a326ab5360856587b28abb66aa48172bcf52.746cd16a491a0fbbc60b.js"
+    async=""></script>
+  <script src="../_next/static/chunks/5cf240b130b30b2c8646cc02e86335a6724c06ff.733ef3620f03ed996e48.js"
+    async=""></script>
+  <script src="../_next/static/chunks/8997bf1e148f07a8ee90bbaa8e59724e7452f07b.bb4542811845f7ba676b.js"
+    async=""></script>
+  <script src="../_next/static/chunks/4fed33a2731842824ebdfefc5d3fba914d1bed92.9e225517a6400b6b040c.js"
+    async=""></script>
+  <script src="../_next/static/chunks/33fce1a36e02b2325a6790903f23e597e0b152e6.d4293ee8f797fd78a948.js"
+    async=""></script>
+  <script src="../_next/static/chunks/5dc0c1112afa90121a4a69afe0cf0e5a0798933f.49f820376796af7937a2.js"
+    async=""></script>
+  <script src="../_next/static/chunks/31554f0713a6af9c1f5823e350eaa4e9a092ca4a.fd15831f4941f21dea64.js"
+    async=""></script>
+  <script src="../_next/static/chunks/e2bcadb233bf594a70811811940d60b88d261e05.26c0e696e0a90f14aa9e.js"
+    async=""></script>
+  <script src="../_next/static/chunks/68208ece48810e32f7ff1da78b1fc00f66c22573.1e00e6e66fa8a9170043.js"
+    async=""></script>
+  <script src="../_next/static/chunks/ff2d7d441ba3de44cbd631a93637f54eddf5feb1.45adc0ab33e5e3392f89.js"
+    async=""></script>
+  <script src="../_next/static/chunks/pages/_app-85a82a3bc28ea9ae43af.js" async=""></script>
+  <script src="../_next/static/chunks/fe95a7ce.110b39e723630b8be045.js" async=""></script>
+  <script src="../_next/static/chunks/87459ff3110e3822bc16ef3717708ed26ee84fea.d1b21b6138df433f68f7.js"
+    async=""></script>
+  <script src="../_next/static/chunks/a30e00f1f49cf273d93632edca5773cc34835eca.28b39a342fb19d7c92af.js"
+    async=""></script>
+  <script src="../_next/static/chunks/7bce1a5c944e992c8ab371a20c2373c2a9d975e2.7eeb346268dc3dfb60c1.js"
+    async=""></script>
+  <script src="../_next/static/chunks/pages/map/[theme]-e844de4f436d231e5929.js" async=""></script>
+  <script src="../_next/static/1rCjDSQi89HKL2mV0DBCx/_buildManifest.js" async=""></script>
+  <script src="../_next/static/1rCjDSQi89HKL2mV0DBCx/_ssgManifest.js" async=""></script>
+</body>
+
+</html>
