@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 
-ruby "2.7.4"
+ruby file: '.ruby-version'
 
 # gem "rails"
 
-gem "github-pages", "~> 228"
+gem "github-pages", "~> 232"
