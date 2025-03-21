@@ -8,7 +8,6 @@ Scroll or use the left-side navigation to browse tutorials. These tutorials are 
 
 There are four map views you can interact with on this website: Map by Building Type, Building Size, Building Vintage, and Median Household Income. Navigating to each map will allow you to change different variables.
 
-
 1. From the Bayren home page, select which of the four variables you would like to visualize
 
 OR
@@ -44,7 +43,6 @@ Alt text: Screenshot of toolbar in Building Size map view set to show the total 
 * The fifth column displays geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the time periods selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
 
-
 #### **Map by Building Vintage**
 
 \<tutorial-vint-map-page.png\>
@@ -68,7 +66,6 @@ Alt text: Screenshot of toolbar in Residential Income map view set to show the t
 * The fourth column allows you to select the percentage range of the area median income: 0-30%, 30-50%, 50-80%, 80-100%, 100-120%, Over 120%, and Null.
 * The fifth column displays geographical scale, including Census Tracts, Census Places, and Zip Code Tabulation Areas.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the selected time periods. When *Total* is selected, the map and graphs will display the sum over the selected time periods.
-
 
 ## Using the Map
 
@@ -205,7 +202,6 @@ Alt text: Screenshot of the crosstab button, which is a table icon.
 
   For dashboards, all sheets will be listed, including hidden sheets. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded crosstab.
 
-
 \<tutorial-download-pdf.png\>
 Alt text: Screenshot of the PDF button, which is a PDF icon.
 
@@ -217,7 +213,6 @@ If you're downloading a dashboard to PDF format, web page objects aren't include
 Alt text: Screenshot of the crosstab button, which is an image icon.
 
 *  Image: Downloads an image of the view in .png format. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded image.
-
 
 \<tutorial-download-powerpoint.png\>
 Alt text: Screenshot of the crosstab button, which is a powerpoint icon.
