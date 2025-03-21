@@ -26,7 +26,7 @@ For each map, use the drop-down options above the map to customize what you woul
 Alt text: Screenshot of the Building Type map view set to show the total natural gas consumption of buildings categorized as Single-Family by Counties for all months and all years.
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
-* The second column denotes the energy type:  Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
+* The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The third column displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Null.
 * The fourth column displays geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the time periods selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
@@ -37,8 +37,8 @@ Alt text: Screenshot of the Building Type map view set to show the total natural
 Alt text: Screenshot of toolbar in Building Size map view set to show the total natural gas consumption of buildings categorized as Single-Family and sized 1-10k sq. ft. by Counties for all months and all years.
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
-* The second column denotes the energy type:  Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
-* The third column displays the specific building category, which includes the following:  Agricultural, Commercial, Industrial, Institutional, Multi-Family, Other, and Null.
+* The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
+* The third column displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Other, and Null.
 * The fourth column allows you to select the building square footage: 0-10k sq. ft., 10k-20k sq. ft., 20k-30k sq. ft., 30k-40k sq. ft., 40k-50k sq. ft., Over 50k sq. ft., and Null
 * The fifth column displays geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the time periods selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
@@ -49,8 +49,8 @@ Alt text: Screenshot of toolbar in Building Size map view set to show the total 
 Alt text: Alt text: Screenshot of toolbar in Building Vintage map view set to show the total natural gas consumption of buildings categorized as Single-Family and built after 1990 by Counties for all months and all years.
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
-* The second column denotes the energy type:  Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
-* The third column displays the specific building category, which includes the following:  Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Null.
+* The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
+* The third column displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Null.
 * The fourth column allows you to select the time period in which buildings were built: Before 1949, 1950-1977, 1978-1989, After 1990, and Null.
 * The fifth column displays geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the time periods selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
@@ -61,8 +61,8 @@ Alt text: Alt text: Screenshot of toolbar in Building Vintage map view set to sh
 Alt text: Screenshot of toolbar in Residential Income map view set to show the total natural gas consumption of buildings categorized as Multi-Family representing Over 120% of the Median Family Income by Census Tracts for all months and all years.
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
-* The second column denotes the energy type:  Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
-* The third column displays the specific building category, which includes the following:  Multi-Family and Single-Family.
+* The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
+* The third column displays the specific building category, which includes the following: Multi-Family and Single-Family.
 * The fourth column allows you to select the percentage range of the area median income: 0-30%, 30-50%, 50-80%, 80-100%, 100-120%, Over 120%, and Null.
 * The fifth column displays geographical scale, including Census Tracts, Census Places, and Zip Code Tabulation Areas.
 * The final two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the selected time periods. When *Total* is selected, the map and graphs will display the sum over the selected time periods.
@@ -179,11 +179,11 @@ When multiple geographies are selected, the topmost graph will provide energy co
 
 * The left most column displays the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The second column allows you to choose specific geographies to compare. This dropdown will update depending on the selected geographic level.
-* The next column denotes the energy type:  Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
+* The next column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The following two columns allow month and year selection. Any combination of months and years may be selected. When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map and graphs will show the median of those values for the time periods selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
 * Finally, you can choose to view the Profiles page data visualizations as bar graphs or as tables.
 
-* NOTE: While you can select as many geographies as you’d like, we suggest no more than 3 or 4\. Depending on the size of your screen, results may be obscured with larger selections.
+* NOTE: While you can select as many geographies as you’d like, we suggest no more than 3 or 4. Depending on the size of your screen, results may be obscured with larger selections.
 
 Each graph will have an info button which, upon hover, will provide a description of that graph.
 
@@ -207,7 +207,7 @@ Alt text: Screenshot of the PDF button, which is a PDF icon.
 
 * PDF: Opens a dialog window to select download options. Under Include, select the part of the workbook you want to download. Select this view, specific sheets from a workbook or dashboard, or select all. Select Scaling to control the image's appearance on the PDF. Select Paper Size and Orientation.
 
-If you're downloading a dashboard to PDF format, web page objects aren't included.
+  If you're downloading a dashboard to PDF format, web page objects aren't included.
 
 \<tutorial-download-image.png\>
 Alt text: Screenshot of the crosstab button, which is an image icon.
