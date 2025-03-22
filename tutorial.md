@@ -183,26 +183,32 @@ There are two ways to download the aggregated data underlying the Energy Atlas. 
 
 * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.
 
-![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }})
+![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .icon-image}
 
 * Crosstab: Opens a dialog window to select download options. If viewing a dashboard, select a sheet from the dashboard to download. Under Select Format, select .csv or Microsoft Excel .xlsx.
 
   For dashboards, all sheets will be listed, including hidden sheets. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded crosstab.
 
-![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }})
+![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }}){: .icon-image}
 
 * PDF: Opens a dialog window to select download options. Under Include, select the part of the workbook you want to download. Select this view, specific sheets from a workbook or dashboard, or select all. Select Scaling to control the image's appearance on the PDF. Select Paper Size and Orientation.
 
   If you're downloading a dashboard to PDF format, web page objects aren't included.
 
-![Screenshot of the crosstab button, which is an image icon.]({{ "/assets/images/tutorial/tutorial-download-image.png" | relative_url }})
+![Screenshot of the crosstab button, which is an image icon.]({{ "/assets/images/tutorial/tutorial-download-image.png" | relative_url }}){: .icon-image}
 
 *  Image: Downloads an image of the view in .png format. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded image.
 
-![Screenshot of the crosstab button, which is a powerpoint icon.]({{ "/assets/images/tutorial/tutorial-download-powerpoint.png" | relative_url }})
+![Screenshot of the crosstab button, which is a powerpoint icon.]({{ "/assets/images/tutorial/tutorial-download-powerpoint.png" | relative_url }}){: .icon-image}
 
 * PowerPoint: Download selected sheets as images on individual slides in a PowerPoint presentation.
 
   To produce individual images, rather than an image of the entire page, select *Specific sheets from this dashboard*.
 
   Any filters, parameters, or selections currently applied in Tableau are reflected in the exported presentation. The generated PowerPoint file includes a title slide with the name of your workbook and the date the file was generated. The title is a hyperlink that opens the workbook in Tableau Cloud or Tableau Server.
+
+<style>
+  .icon-image {
+    height: 30px;
+  }
+</style>
