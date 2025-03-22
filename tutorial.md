@@ -22,8 +22,7 @@ For each map, use the drop-down options above the map to customize what you woul
 
 #### **Map by Building Type**
 
-\<tutorial-bld-map-page.png\>
-Alt text: Screenshot of the Building Type map view set to show the total natural gas consumption of buildings categorized as Single-Family by Counties for all months and all years.
+![Screenshot of the Building Type map view set to show the total natural gas consumption of buildings categorized as Single-Family by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }})
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
@@ -33,8 +32,7 @@ Alt text: Screenshot of the Building Type map view set to show the total natural
 
 #### **Map by Building Size**
 
-\<tutorial-sqft-map-page.png\>
-Alt text: Screenshot of toolbar in Building Size map view set to show the total natural gas consumption of buildings categorized as Single-Family and sized 1-10k sq. ft. by Counties for all months and all years.
+![Screenshot of toolbar in Building Size map view set to show the total natural gas consumption of buildings categorized as Single-Family and sized 1-10k sq. ft. by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-sqft-map-page.png" | relative_url }})
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
@@ -45,8 +43,7 @@ Alt text: Screenshot of toolbar in Building Size map view set to show the total 
 
 #### **Map by Building Vintage**
 
-\<tutorial-vint-map-page.png\>
-Alt text: Alt text: Screenshot of toolbar in Building Vintage map view set to show the total natural gas consumption of buildings categorized as Single-Family and built after 1990 by Counties for all months and all years.
+![Alt text: Screenshot of toolbar in Building Vintage map view set to show the total natural gas consumption of buildings categorized as Single-Family and built after 1990 by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-vint-map-page.png" | relative_url }})
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
@@ -57,8 +54,7 @@ Alt text: Alt text: Screenshot of toolbar in Building Vintage map view set to sh
 
 #### **Map by Residential Income**
 
-\<tutorial-ami-map-page.png\>
-Alt text: Screenshot of toolbar in Residential Income map view set to show the total natural gas consumption of buildings categorized as Multi-Family representing Over 120% of the Median Family Income by Census Tracts for all months and all years.
+![Screenshot of toolbar in Residential Income map view set to show the total natural gas consumption of buildings categorized as Multi-Family representing Over 120% of the Median Family Income by Census Tracts for all months and all years.]({{ "/assets/images/tutorial/tutorial-ami-map-page.png" | relative_url }})
 
 * The left most column lets you select the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The second column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
@@ -75,8 +71,7 @@ Each interactive map will have shared and unique variables available for adjustm
 
 In addition to the filter selections available at the top of the map, there is a menu of extra map controls below the legend. When viewing the map, you can use the “Filter Census Tracts by County” dropdown to view the census tracts that lie within the county of interest, as well as the Census Places and Zip Code Tabulation areas that intersect the county of interest. When viewing Census Places, there is the additional option to filter based on whether or not the geography is incorporated or unincorporated.
 
-\<tutorial-bld-extra-map-controls.png\>
-Alt text: Screenshot of the Building Type map with a dotted blue outline around the Extra Map Controls available near the top right corner of the map page below the legend.
+![Screenshot of the Building Type map with a dotted blue outline around the Extra Map Controls available near the top right corner of the map page below the legend.]({{ "/assets/images/tutorial/tutorial-bld-extra-map-controls.png" | relative_url }})
 
 Below the filters is an option to show and hide map labels, which may be useful when examining consumption of the more granular geography levels.
 
@@ -90,8 +85,7 @@ In an interactive map:
 
 There are two ways to make selections on the map, which can be found in the map control panel on the left of the window.
 
-\<tutorial-bld-pan.png\>
-Alt text: Screenshot of the Building Type Map with the map controls open, highlighting the pan function.
+![Screenshot of the Building Type Map with the map controls open, highlighting the pan function.]({{ "/assets/images/tutorial/tutorial-bld-pan.png" | relative_url }})
 
 1. The default option is the “Pan” function, which allows you to move around the map and make selections by clicking on the geography of interest. To select multiple geographies at a time, hold the *Ctrl* button (Windows) or the *command* button (Mac) while clicking on the geographies of interest.
 
@@ -109,18 +103,15 @@ To make a new selection, simply click a new geography (without the ctrl or comma
 
 For each selected geography, the graph in the bottom of the window will show the consumption for each selected month of each selected year. Below the graph, a data summary for the geographies will also be available.
 
-\<tutorial-bld-selection.png\>
-Alt text: Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map.
+![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map.]({{ "/assets/images/tutorial/tutorial-bld-selection.png" | relative_url }})
 
 #### **Selections in the graph**
 
-\<tutorial-bld-graph-hover.png\>
-Alt text: Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A tooltip for 2019 of Alameda County is populated.
+![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A tooltip for 2019 of Alameda County is populated.]({{ "/assets/images/tutorial/tutorial-bld-graph-hover.png" | relative_url }})
 
 When hovering over the year value in the x-axis of the graph, the aggregate consumption value for the entire year will display in the tooltip.
 
-\<tutorial-bld-graph-selection.png\>
-Alt text: Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A selection of the first half of 2019 in the monthly bar graph selected and an updated tooltip, which reflects the selection.
+![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A selection of the first half of 2019 in the monthly bar graph selected and an updated tooltip, which reflects the selection.]({{ "/assets/images/tutorial/tutorial-bld-graph-selection.png" | relative_url }})
 
 To aggregate specific months and years of interest for the tooltip, you can:
 
@@ -139,13 +130,11 @@ With at least one geography selected, a “View Profile” or “Compare Profile
 
 These layers may be toggled using the map controls available on the left side of the map.
 
-\<tutorial-bld-layer-control.png\>
-Alt text: Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area.
+![Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area.]({{ "/assets/images/tutorial/tutorial-bld-layer-control.png" | relative_url }})
 
 While all layers are technically available to toggle off and on, we recommend maintaining the visibility of the Consumption layer when multiple months and years of consumption data are available. Users will only get accurate information about consumption for the entire time period when the Consumption layer remains visible.
 
-\<tutorial-bld-dac-hover.png\>
-Alt text: Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area. Both DAC Census Tracts and Non DAC Census Tracts layers are made visible. The Map is zoomed into a census tract in San Francisco County with the tooltip open, showing the name of the census tract as well as the CalEnviroscreen percentile score.
+![Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area. Both DAC Census Tracts and Non DAC Census Tracts layers are made visible. The Map is zoomed into a census tract in San Francisco County with the tooltip open, showing the name of the census tract as well as the CalEnviroscreen percentile score.]({{ "/assets/images/tutorial/tutorial-bld-dac-hover.png" | relative_url }})
 
 Map layers of DAC and Non DAC census tracts derived from CalEnviroscreen 4.0 are available as map overlays separately, to increase the flexibility of the layer control.
 
@@ -172,8 +161,7 @@ If you have selected a geography from a map, and navigate to Profiles page via t
 
 You can also navigate to the Profiles page independently of the map, by using the Menu in the upper-right corner of the window. When you enter the Profiles page without a map selection, the graphs will be unpopulated until a selection is made in the top filters.
 
-\<tutorial-profiles-page.png\>
-Alt text: Screenshot of the very top of the Profiles page, showing the filter selection bar as well as the first bar graph, which displayed the summed total of the selected counties.
+![Screenshot of the very top of the Profiles page, showing the filter selection bar as well as the first bar graph, which displayed the summed total of the selected counties.]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }})
 
 When multiple geographies are selected, the topmost graph will provide energy consumption totals for all of the geographies collectively. This graph will only be triggered with multiple selections. The data below the summation graphs will provide data per selected geography.
 
@@ -195,27 +183,23 @@ There are two ways to download the aggregated data underlying the Energy Atlas. 
 
 * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.
 
- \<tutorial-download-crosstab.png\>
-Alt text: Screenshot of the crosstab button, which is a table icon.
+![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }})
 
 * Crosstab: Opens a dialog window to select download options. If viewing a dashboard, select a sheet from the dashboard to download. Under Select Format, select .csv or Microsoft Excel .xlsx.
 
   For dashboards, all sheets will be listed, including hidden sheets. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded crosstab.
 
-\<tutorial-download-pdf.png\>
-Alt text: Screenshot of the PDF button, which is a PDF icon.
+![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }})
 
 * PDF: Opens a dialog window to select download options. Under Include, select the part of the workbook you want to download. Select this view, specific sheets from a workbook or dashboard, or select all. Select Scaling to control the image's appearance on the PDF. Select Paper Size and Orientation.
 
   If you're downloading a dashboard to PDF format, web page objects aren't included.
 
-\<tutorial-download-image.png\>
-Alt text: Screenshot of the crosstab button, which is an image icon.
+![Screenshot of the crosstab button, which is an image icon.]({{ "/assets/images/tutorial/tutorial-download-image.png" | relative_url }})
 
 *  Image: Downloads an image of the view in .png format. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded image.
 
-\<tutorial-download-powerpoint.png\>
-Alt text: Screenshot of the crosstab button, which is a powerpoint icon.
+![Screenshot of the crosstab button, which is a powerpoint icon.]({{ "/assets/images/tutorial/tutorial-download-powerpoint.png" | relative_url }})
 
 * PowerPoint: Download selected sheets as images on individual slides in a PowerPoint presentation.
 
