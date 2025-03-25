@@ -1,3 +1,119 @@
+---
+---
+  <header>
+    <a href="https://uclaioes.github.io/bayren-atlas/">
+      <img id="logo" src="assets/images/bayren-logo-dark.png" alt="Homepage." width="auto" height="25">
+    </a>
+    <nav class="nav" id="nav">
+      <a href="bld.html">Building Type</a>
+      <a href="sqft.html">Building Size</a>
+      <a href="vintage.html">Building Vintage</a>
+      <a href="income.html">Residential Income</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="methods.html">Methods</a>
+    </nav>
+    <a href="javascript:void(0);" id="menu-toggle" onclick="togglemenu()">
+      <div class="menu-toggle__bar1"></div>
+      <div class="menu-toggle__bar2"></div>
+      <div class="menu-toggle__bar3"></div>
+    </a>
+  </header>
+
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      margin: 0;
+      font-size: 14px;
+      font-family: Open Sans, sans-serif;
+      font-weight: 400;
+      line-height: 1.43;
+    }
+
+    #logo {
+      position: fixed;
+      top: 23px;
+      left: 3px;
+      z-index: 2;
+    }
+
+    .nav {
+      position: fixed;
+      transform: translateX(100%);
+      transition: transform 0.2s;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      /* left: 50%; */
+      padding-top: 56px;
+      border: 1px solid black;
+      background-color: white;
+      z-index: 1;
+    }
+
+    .nav a {
+      display: block;
+      padding: 11px 30px 10px 30px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .nav a:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    .nav.nav--open {
+      transform: translateX(0);
+    }
+
+    #menu-toggle {
+      display: block;
+      position: fixed;
+      top: 15px;
+      right: 0;
+      padding: 8px;
+      z-index: 2;
+    }
+
+    .menu-toggle__bar1,
+    .menu-toggle__bar2,
+    .menu-toggle__bar3 {
+      width: 21px;
+      height: 3px;
+      background-color: #000000;
+      margin: 4px 0;
+      transition: 0.3s;
+    }
+
+    .menu-toggle--open .menu-toggle__bar1 {
+      transform: translate(0, 7px) rotate(-45deg);
+    }
+
+    .menu-toggle--open .menu-toggle__bar2 {
+      opacity: 0;
+    }
+
+    .menu-toggle--open .menu-toggle__bar3 {
+      transform: translate(0, -7px) rotate(45deg);
+    }
+  </style>
+
+  <script>
+    function togglemenu() {
+      var x = document.getElementById("nav");
+      if (x.className === "nav") {
+        x.className += " nav--open";
+      } else {
+        x.className = "nav";
+      }
+      var element = document.getElementById("menu-toggle");
+      element.classList.toggle("menu-toggle--open");
+    }
+  </script>
+
 # Tutorial
 
 Scroll or use the left-side navigation to browse tutorials. These tutorials are to aid use of the map, adjustments of visualizations, the comparison of geographies through the Profiles page, and downloading the backend, aggregated data.
