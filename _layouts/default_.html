@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{%- include head_.html -%}
+  {%- include head_.html -%}
 
-<body>
+  <body>
 
-  {%- include header_.html -%}
+    {%- include header_.html -%}
 
-  {{ content }}
+    {{ content }}
 
-  <script src="{{ "/assets/main.js" | relative_url }}"></script>
-</body>
+    <script src="{{ "/assets/main.js" | relative_url }}"></script>
+
+  </body>
 
 </html>
