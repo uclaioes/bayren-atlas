@@ -1,4 +1,7 @@
-# Methods
+---
+layout: page_
+title: Methods
+---
 
 The **Bay Area Energy Atlas** is an interactive platform that combines PG\&E metered electricity and gas consumption data with contextual information about associated building attributes and socio-demographic characteristics. It has been developed to inform energy planning efforts on a local level. All data accessible through this website has been aggregated in accordance with CPUC guidelines in order to protect customer privacy.
 
