@@ -3,7 +3,7 @@ layout: page_
 title: Methods
 ---
 
-The **Bay Area Energy Atlas** is an interactive platform that combines PG\&E metered electricity and gas consumption data with contextual information about associated building attributes and socio-demographic characteristics. It has been developed to inform energy planning efforts on a local level. All data accessible through this website has been aggregated in accordance with CPUC guidelines in order to protect customer privacy.
+The **Bay Area Energy Atlas** is an interactive platform that combines PG&E metered electricity and gas consumption data with contextual information about associated building attributes and socio-demographic characteristics. It has been developed to inform energy planning efforts on a local level. All data accessible through this website has been aggregated in accordance with CPUC guidelines in order to protect customer privacy.
 
 To develop this public facing website, researchers have collected, processed, and analyzed energy and related data from a variety of sources. The site features interactive energy maps, comparative graphs, and tabular views of community energy profile data, both in isolation and normalized in multiple different ways. The aggregated information presented on this website has been compiled from a separate, confidential, spatially-aware relational database. The private monthly account level energy consumption records in this database are geographically linked to building characteristics and census attributes.
 
@@ -29,19 +29,19 @@ Alt text: The diagram illustrates the input data that is preprocessed, standardi
 
 ### PG&E Utility Data
 
-The energy consumption data in the Bay Area Energy Atlas comes from monthly meter-level PG\&E customer billing data from 2013-2017. These billing records include both electricity and natural gas consumption for residential and nonresidential accounts in the nine-county BayREN territory. UCLA received this data in late 2019 via a Non-Disclosure Agreement with the California Public Utilities Commission (CPUC). All energy consumption data available on this website is aggregated to meet the CPUC customer privacy aggregation threshold guidelines (D.14-05-016). For more information about the privacy aggregation threshold, please see Masked vs. Unavailable Data below.
+The energy consumption data in the Bay Area Energy Atlas comes from monthly meter-level PG&E customer billing data from 2015-2021. These billing records include both electricity and natural gas consumption for residential and nonresidential accounts in the nine-county BayREN territory. UCLA received this data in late 2019 via a Non-Disclosure Agreement with the California Public Utilities Commission (CPUC). All energy consumption data available on this website is aggregated to meet the CPUC customer privacy aggregation threshold guidelines (D.14-05-016). For more information about the privacy aggregation threshold, please see Masked vs. Unavailable Data below.
 
-Some customers living within the Bay Area are provided energy service by utilities other than PG\&E. Usage for these customers is not included at this time. Non-PG\&E usage data from Healdsburg, Palo Alto, Alameda, Hercules before 2014, Pittsburg Power Company Island Energy, Silicon Valley Power, Hetch Hetchy Power, Port of Oakland are not included in these totals.
+Some customers living within the Bay Area are provided energy service by utilities other than PG&E. Usage for these customers is not included at this time. Non-PG&E usage data from Healdsburg, Palo Alto, Alameda, Hercules before 2014, Pittsburg Power Company Island Energy, Silicon Valley Power, Hetch Hetchy Power, Port of Oakland are not included in these totals.
 
 **Omitted Data**: Natural gas accounts used to generate electricity were identified by rate tariff and removed from reported totals to avoid double counting the same energy in the form of electricity.
 
 ***Note on Net Metering***
 
-The Atlas reports metered energy consumption. When customers have distributed energy resources (DERs), such as energy generation or storage assets installed behind the meter, the output of these assets can offset a fraction of their energy demand. In a small minority ofsome cases, it is even possible that a customer’s meter could register net “negative consumption” over a particular billing interval. This would happen during periods when the output of their behind the meter generation assets exceed their total energy demand. For this reason, the consumption values reported here reflect net energy demand, and not necessarily total energy consumption. This difference is due to the fundamental limitations of how energy consumption is currently metered by the utility providers. In areas where solar installations are more prevalent this could result in downward consumption trends that are due to an increase in solar installations, rather than a decrease in total electricity consumption overall. In future updates we will seek to provide additional context around this issue by reporting changes in the total number of net-metered customers within the different reporting geographies over time. Unfortunately, current utility metering infrastructure is fundamentally limited in terms of its ability to only record data for “net load” and not “total load,” absent the contribution of behind-the-meter DER assets.
+The Atlas reports metered energy consumption. When customers have distributed energy resources (DERs), such as energy generation or storage assets installed behind the meter, the output of these assets can offset a fraction of their energy demand. In a small minority of cases, it is even possible that a customer’s meter could register net “negative consumption” over a particular billing interval. This would happen during periods when the output of their behind the meter generation assets exceed their total energy demand. For this reason, the consumption values reported here reflect net energy demand, and not necessarily total energy consumption. This difference is due to the fundamental limitations of how energy consumption is currently metered by the utility providers. In areas where solar installations are more prevalent this could result in downward consumption trends that are due to an increase in solar installations, rather than a decrease in total electricity consumption overall. In future updates we will seek to provide additional context around this issue by reporting changes in the total number of net-metered customers within the different reporting geographies over time. Unfortunately, current utility metering infrastructure is fundamentally limited in terms of its ability to only record data for “net load” and not “total load,” absent the contribution of behind-the-meter DER assets.
 
 ### Parcels and Buildings
 
-Building information (use type, year built, square footage) is sourced from parcel databases from county tax assessors. These datasets primarily reflect 2022/2318 parcel data for most counties.
+Building information (use type, year built, square footage) is sourced from parcel databases from county tax assessors. These datasets primarily reflect 2023 parcel data for most counties.
 
 See the Limitations section for more information about Parcel Data.
 
@@ -87,19 +87,15 @@ The energy consumption by building size map and data tables includes two usetype
 
 ### US Census/American Community Survey Data
 
-Researchers use data from the US Census and the American Community Survey to investigate patterns in the relationships between energy consumption and demographic characteristics and income levels. Socio-economic information is taken from the American Community Survey 5-Year Estimates 2013-2017 for both census tracts and block groups. Researchers collected relevant tables using Social Explorer Professional Edition, a robust web interface to Census materials made available through UCLA professional subscription.
+Researchers use data from the US Census and the American Community Survey to investigate patterns in the relationships between energy consumption and demographic characteristics and income levels. Socio-economic information is taken from the 2018-2022 ACS 5-Year Estimates.
 
-Most ACS-derived information on the Energy Atlas (population, income) is aggregated from block group level statistics to the administrative boundaries found on the site. The exception is population totals for cities, which was collected from 2017 California Department of Finance estimates\*. For zip codes and counties, population levels are calculated from the block group values; however, block group boundaries do not align perfectly with the zip code, or city boundaries presented in the front-end website. In order to provide the best estimates for population totals for each of these reference geographies, we used a two-step process. First, block groups whose boundaries are completely contained within each geography are assigned to the zip code and county that they are within. For those block groups on the boundaries of multiple counties or zip codes, we divide the population proportional to the area within each geography and assign totals based on these proportional distributions. A limitation of this process is the assumption of equal population distribution throughout a block group. Renter/Owner proportions are assigned based on the population aggregation methodology explained here. Median household incomes for each geography are derived from the median of all intersecting block groups’ reported median household income values within a geography.
-
-\*Source: State of California, Department of Finance, E-5 Population and Housing Estimates for Cities, Counties and the State — January 1, 2011-2020. Sacramento, California, May 2020\.
+Most ACS-derived information on the Energy Atlas (population, income) is aggregated from block group level statistics to the administrative boundaries found on the site. For zip codes and counties, population levels are calculated from the block group values; however, block group boundaries do not align perfectly with the zip code, or city boundaries presented in the front-end website. In order to provide the best estimates for population totals for each of these reference geographies, we used a two-step process. First, block groups whose boundaries are completely contained within each geography are assigned to the zip code and county that they are within. For those block groups on the boundaries of multiple counties or zip codes, we divide the population proportional to the area within each geography and assign totals based on these proportional distributions. A limitation of this process is the assumption of equal population distribution throughout a block group. Renter/Owner proportions are assigned based on the population aggregation methodology explained here. Median household incomes for each geography are derived from the median of all intersecting block groups’ reported median household income values within a geography.
 
 ### Administrative Boundaries
 
 The Energy Atlas reports energy consumption statistics and analyses aggregated to four primary reference geographies within the Bay Area – census tracts, zip code tabulation areass, census placescities, and counties. While much of the analysis conducted was developed at the parcel and block group levels, researchers aggregated the results to the larger reference geographies in order to provide consistent outputs that adhere to customer privacy protections.
 
-City and county and zip code boundaries were collected from the California State Geoportal. Some zip codes intersect counties out of scope to this project. Those have been removed because the data would be incomplete and potentially misleading.
-
-All geographyCensus tracts and block group boundaries were downloaded from the Census TIGER/Line website. CalEnviroScreen 43.0 data was downloaded from the California Office of Environmental Health Hazard Assessment website.
+All geography boundaries were downloaded from the Census TIGER/Line website. CalEnviroScreen 43.0 data was downloaded from the California Office of Environmental Health Hazard Assessment website.
 
 ### Masked vs. Unavailable Data
 
@@ -127,19 +123,17 @@ Because BTUs are a sum of electricity and natural gas consumption, if either one
 
 Despite our efforts to produce the most accurate data as possible, there are inherent limitations to each of the data sources listed here and in the methodologies used to generate these statistics.
 
-**1\. Missing Non-PG\&E Consumption Data**
+**1\. Missing Non-PG&E Consumption Data**
 
-All aggregated reported totals only include PG\&E territory. Data for smaller publicly owned or other utilities are not included.
+All aggregated reported totals only include PG&E territory. Data for smaller publicly owned or other utilities are not included.
 
-Non-PG\&E usage data from Healdsburg, Palo Alto, Alameda, Pittsburg Power Company Island Energy, Silicon Valley Power, Hetch Hetchy Power, Port of Oakland are not included in these totals. Additionally, usage data from Hercules in prior to 2014 is not included.
+Non-PG&E usage data from Healdsburg, Palo Alto, Alameda, Pittsburg Power Company Island Energy, Silicon Valley Power, Hetch Hetchy Power, Port of Oakland are not included in these totals. Additionally, usage data from Hercules in prior to 2014 is not included.
 
 **2\. Parcel Data Errors and Gaps**
 
 Much of the analysis presented in the Energy Atlas is predicated upon the assumption that parcel data for building use, size, vintage and design information are both accurate and complete. Parcel data is collected and maintained by individual counties, and some level of error is to be expected. Tax assessors’ data are known to undercount square footage and contain incomplete information for non-taxable properties such as churches, government buildings, schools and nonprofit organizations (deemed “institutional” use type in the Energy Atlas). For these buildings, consumption statistics relating to building size and year built often reflect these errors. Parcel data can also contain errors in land use types, which will be reflected in the reported energy consumption statistics by building use type, since parcels are the underlying source of information for designating these categories.
 
-An additional limitation is that while the years of energy data span 2013 to 2017, the parcel data for the region corresponds to the year 2018, so changes to construction or land use during the study time frame may not be reflected at the precise moment of consumption.
-
-MTC provided the standardized version of the parcel data used in this analysis. As MTC updates this data and shares with UCLA, the resulting aggregations will likely be updated on this website as well. Any updates to the underlying data will be noted in the Findings/Data Stories page.
+An additional limitation is that while the years of energy data span 2015 to 2021, the parcel data for the region corresponds to the year 2023, so changes to construction or land use during the study time frame may not be reflected at the precise moment of consumption.
 
 The version of parcel data received by UCLA has data gaps, particularly for building attribute information including use type, year built, and square-footage. Because use type is integral to assigning a consumption use type category in this tool, UCLA attempted to fill in as many gaps as possible from other data sources. This was done by collecting publicly available parcel data and zoning information from each county where applicable. For some parcels, UCLA assigned null use types by determining the utility designated use type category from the account present on such a parcel (ie. NAICS code or sector ID from the utility billing data).
 
@@ -153,7 +147,7 @@ This tool prioritizes distinguishing between building/parcel-related energy cons
 
 The Transportation/Communications/Utility (TCU) category is more complicated. Utility-given NAICS codes are used to identify and aggregate these TCU accounts, and ensure the consumption is not related to building attributes.
 
-Identifying the TCU accounts is not a perfect science, and is dependent upon the accuracy and completeness of the NAICS code provided by the PG\&E billing data. It is possible there are some non-parcel related accounts being attributed to building consumption metrics. UCLA continuously works to improve and refine these methods to generate the most accurate data as possible, given these limitations.
+Identifying the TCU accounts is not a perfect science, and is dependent upon the accuracy and completeness of the NAICS code provided by the PG&E billing data. It is possible there are some non-parcel related accounts being attributed to building consumption metrics. UCLA continuously works to improve and refine these methods to generate the most accurate data as possible, given these limitations.
 
 **5\. Census Aggregation Errors**
 
@@ -179,7 +173,7 @@ The development of the data presented in the Atlas is a time-consuming and resou
 
 ### Geocoding and Utility Data Standardization
 
-Geocoding the account addresses is fundamental to linking account locations with other reference geographies such as cities, census blocks, and parcels. Geocoding is an iterative process and the success (match) rate varies based on the geocoding method, completeness of parcel reference data by county, completeness of utility account addresses, and level of accuracy. PG\&E meter addresses were geocoded to their parcel via Google Geocoding API.
+Geocoding the account addresses is fundamental to linking account locations with other reference geographies such as cities, census blocks, and parcels. Geocoding is an iterative process and the success (match) rate varies based on the geocoding method, completeness of parcel reference data by county, completeness of utility account addresses, and level of accuracy. PG&E meter addresses were geocoded to their parcel via Google Geocoding API.
 
 Alt text: Table lists each county split into residential and nonresidential sectors, with statistics for the percent geocoded to parcel, geocoded to street, and geocoded to zip for both electricity and natural gas. Caption: Geocoding match rate of meter addresses by utility sector and county.
 
@@ -201,7 +195,7 @@ Energy consumption billing data is organized around billing dates that are speci
 
 ### Building Use Types
 
-As discussed previously, a primary unit of analysis in this research is the megaparcel, a parcel layer whose attributes have been dissolved based upon its geometry. Each megaparcel is assigned a building type according to its use and construction design. The building type categories are based on use codes as assigned by the County Assessor and standardized by MTC.
+As discussed previously, a primary unit of analysis in this research is the megaparcel, a parcel layer whose attributes have been dissolved based upon its geometry. Each megaparcel is assigned a building type according to its use and construction design. The building type categories are based on use codes as assigned by the County Assessor.
 
 CCSC researchers reclassified building types into 7 main categories of megaparcels (which include multiple overlapping parcels that are co-located or “stacked” within the same building, such as condominiums).
 
