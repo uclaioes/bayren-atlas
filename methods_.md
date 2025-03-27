@@ -49,7 +49,7 @@ See the Limitations section for more information about Parcel Data.
 
 Building Use Types are determined from standardized land use codes from parcel data collected from each county.
 
-### **Residential Use Types**
+#### Residential Use Types
 
 * **Single Family**
 
@@ -61,7 +61,7 @@ Building Use Types are determined from standardized land use codes from parcel d
 
 * **Residential (Total)**: Sum of all residential sectors.
 
-### **Non-Residential Use Types**
+#### Non-Residential Use Types
 
 * **Agricultural**
 
@@ -75,7 +75,7 @@ Building Use Types are determined from standardized land use codes from parcel d
 
 **Omitted Data:** Some utility accounts do not necessarily fit into building use categories. These types of accounts were removed from parcel-based designation to ensure the consumption from these types of accounts are not mis-attributed to a building’s energy consumption. For example, streetlights or water pumps are not uses that relate to a building on a parcel, and have been aggregated into additional non-building based categories. These categories are available in the download dataset, but not visualized on the website as they are not building energy data.
 
-### **Non-Building Related Uses (derived from utility account information) Available in the Download Data**
+#### Non-Building Related Uses (derived from utility account information) Available in the Download Data
 
 * **TCU (Transportation/Communication/Utilities)**: Telecommunications and utility infrastructure unrelated to buildings (ie. telecom boxes, water pumps, etc). Also includes natural gas used for vehicles.
 
