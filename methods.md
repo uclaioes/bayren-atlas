@@ -115,13 +115,13 @@ Because BTUs are a sum of electricity and natural gas consumption, if either one
 
 Despite our efforts to produce the most accurate data as possible, there are inherent limitations to each of the data sources listed here and in the methodologies used to generate these statistics.
 
-**1\. Missing Non-PG&E Consumption Data**
+**1. Missing Non-PG&E Consumption Data**
 
 All aggregated reported totals only include PG&E territory. Data for smaller publicly owned or other utilities are not included.
 
 Non-PG&E usage data from Healdsburg, Palo Alto, Alameda, Pittsburg Power Company Island Energy, Silicon Valley Power, Hetch Hetchy Power, Port of Oakland are not included in these totals. Additionally, usage data from Hercules in prior to 2014 is not included.
 
-**2\. Parcel Data Errors and Gaps**
+**2. Parcel Data Errors and Gaps**
 
 Much of the analysis presented in the Energy Atlas is predicated upon the assumption that parcel data for building use, size, vintage and design information are both accurate and complete. Parcel data is collected and maintained by individual counties, and some level of error is to be expected. Tax assessors’ data are known to undercount square footage and contain incomplete information for non-taxable properties such as churches, government buildings, schools and nonprofit organizations (deemed “institutional” use type in the Energy Atlas). For these buildings, consumption statistics relating to building size and year built often reflect these errors. Parcel data can also contain errors in land use types, which will be reflected in the reported energy consumption statistics by building use type, since parcels are the underlying source of information for designating these categories.
 
@@ -129,11 +129,11 @@ An additional limitation is that while the years of energy data span 2015 to 202
 
 The version of parcel data received by UCLA has data gaps, particularly for building attribute information including use type, year built, and square-footage. Because use type is integral to assigning a consumption use type category in this tool, UCLA attempted to fill in as many gaps as possible from other data sources. This was done by collecting publicly available parcel data and zoning information from each county where applicable. For some parcels, UCLA assigned null use types by determining the utility designated use type category from the account present on such a parcel (ie. NAICS code or sector ID from the utility billing data).
 
-**3\. Utility Data Errors**
+**3. Utility Data Errors**
 
 UCLA receives raw utility billing data from the CPUC. This raw data comes in a variety of formats, structures, and file types, and requires cleaning and preprocessing by the UCLA team. Raw data errors such as missing or incomplete data have been found to exist, especially while piecing together account-level data over time. UCLA spends a great deal of time attempting to identify and remedy these errors when possible, however there are limitations that we cannot overcome as we are not the original data owners.
 
-**4\. Determining building and non-building related energy accounts**
+**4. Determining building and non-building related energy accounts**
 
 This tool prioritizes distinguishing between building/parcel-related energy consumption vs. non-building related consumption in order to generate energy consumption statistics by building size, year built, and specific use type. In order to do this, meters belonging to non-building related accounts (streetlights, utility infrastructure, telecommunications infrastructure, etc.) must be aggregated separately. Identifying these types of accounts varies in difficulty. Streetlights are identified and aggregated based on their utility-given rate tarriff, which has a unique category for streetlights and traffic control lights.
 
@@ -141,11 +141,11 @@ The Transportation/Communications/Utility (TCU) category is more complicated. Ut
 
 Identifying the TCU accounts is not a perfect science, and is dependent upon the accuracy and completeness of the NAICS code provided by the PG&E billing data. It is possible there are some non-parcel related accounts being attributed to building consumption metrics. UCLA continuously works to improve and refine these methods to generate the most accurate data as possible, given these limitations.
 
-**5\. Census Aggregation Errors**
+**5. Census Aggregation Errors**
 
 Demographic analysis of energy consumption relies on information from the US Census and American Community Surveys that sample a small percentage of the population each year and report estimates based on those samples. Their margins of error vary based on survey location, response rates, and other statistical factors. These errors cannot be corrected for, and are present in the Energy Atlas. Furthermore, population and income statistics for neighborhoods and cities are based on census block group level statistics. In some cases, boundaries of block groups cross zip code and city lines, making precise aggregation difficult. In these cases, population numbers are calculated based on the proportion of block group areas within each of the geographies they intersect, as described above.
 
-**6\. Geocoding Error**
+**6. Geocoding Error**
 
 Geocoding physical addresses to their most precise spatial location is an imperfect science. Constructing accurate linkages between account level consumption, building, and demographic data depends on the accuracy with which service addresses can be mapped to the corresponding parcels where they are physically located.
 
@@ -153,7 +153,7 @@ Geocoding to the parcel level, a necessary step for matching consumption to buil
 
 Residential account geocoding match rates tend to be higher than nonresidential account geocoding. This ultimately makes a difference in consumption values by use type, since most accounts are assigned a use type based on the linkage between account and parcel type. When accounts are unable to be linked to their parcel, we can sometimes designate them as residential based on utility designation, or industrial/commercial based on the utility-assigned NAICS code. For those accounts not geocoded to the parcel, they are geocoded to the street or zip code level. If these accounts cannot be categorized based on utilities sector designation (residential or nonresidential) or by NAICS code, they are then aggregated into the total consumption for neighborhoods and cities, based on their rate tariff type, which is less specific than NAICS code.
 
-**7\. Data Masking Challenges**
+**7. Data Masking Challenges**
 
 The Energy Atlas must adhere to data privacy guidelines from the California Public Utilities Commission 2014 Decision 14-05-016 by Judge Sullivan. As such, geographies are masked if there are less than 15 nonresidential customers, or if one account consumes more than 15% of the total energy in a geography. For residential, there must be more than 100 customers. These privacy regulations trigger certain use types more than others. For example, industrial consumption is largely masked for a majority of geographies due to individual industrial customers consuming a disproportionate amount of energy in an area (i.e. refineries, large production facilities, etc.).
 
