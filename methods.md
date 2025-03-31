@@ -85,7 +85,7 @@ Most ACS-derived information on the Energy Atlas (population, income) is aggrega
 
 ### Administrative Boundaries
 
-The Energy Atlas reports energy consumption statistics and analyses aggregated to four primary reference geographies within the Bay Area – census tracts, zip code tabulation areas, census places, cities, and counties. While much of the analysis conducted was developed at the parcel and block group levels, researchers aggregated the results to the larger reference geographies in order to provide consistent outputs that adhere to customer privacy protections.
+The Energy Atlas reports energy consumption statistics and analyses aggregated to four primary reference geographies within the Bay Area – Counties, Census Tracts, Census Places, and ZIP Code Tabulation Areas. While much of the analysis conducted was developed at the parcel and block group levels, researchers aggregated the results to the larger reference geographies in order to provide consistent outputs that adhere to customer privacy protections.
 
 All geography boundaries were downloaded from the Census TIGER/Line website. CalEnviroScreen 4.0 data was downloaded from the California Office of Environmental Health Hazard Assessment website.
 
