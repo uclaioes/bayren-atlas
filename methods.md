@@ -25,7 +25,7 @@ The Energy Atlas is a product of two separate and distinct databases:
 
 2. **Front-end database (Public)**: The Bay Area Energy Atlas website is powered by separate aggregated and privacy protected data tables that are exported as a set of query outputs from the back-end database. After the data contained within these aggregated tables have been verified as passing privacy controls, they are made accessible to the public to download on this site, and are hosted on a separate cloud server.
 
-Alt text: The diagram illustrates the input data that is preprocessed, standardized, geocoded, and stored in a confidential PostgreSQL database with PostGIS. The relational database organizes account-level energy consumption and spatial relationships. Data is aggregated, analyzed, and subsequently transferred to the public database that stores all aggregated data powering the website/API.)
+Alt text: The diagram illustrates the input data that is preprocessed, standardized, geocoded, and stored in a confidential PostgreSQL database with PostGIS. The relational database organizes account-level energy consumption and spatial relationships. Data is aggregated, analyzed, and subsequently transferred to the public database that stores all aggregated data powering the website/API.
 
 ### PG&E Utility Data
 
