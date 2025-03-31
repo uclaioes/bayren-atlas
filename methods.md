@@ -51,13 +51,7 @@ Building Use Types are determined from standardized land use codes from parcel d
 
 * **Single Family**
 
-* **Multi-Family**: Includes duplexes to large multi-family and condominiums.
-
-  **Residential Other**: Mobile home parks, manufactured homes, nursing homes, rural residential, and unknown other residential use codes that do not clearly fit within single family or multi-family categories.
-
-* **Residential Uncategorized**: Consumption that was categorized as residential from the utility sector designation, but unable to be linked to its parcel and thus unable to be categorized by parcel use type. Without parcel linkage, this consumption lacks square-footage and building vintage information.
-
-* **Residential (Total)**: Sum of all residential sectors.
+* **Multi-Family**: Includes duplexes, large multi-family, and condominiums.
 
 #### Nonresidential Use Types
 
@@ -69,9 +63,9 @@ Building Use Types are determined from standardized land use codes from parcel d
 
 * **Institutional**: Government/public property, schools, churches, non-taxable property.
 
-* **Other**: VAgriculture, vacant lands and, other miscellaneous land uses that do not easily fit into the previous categories.
+* **Other**: Vacant lands and other miscellaneous land uses that do not easily fit into the previous categories.
 
-**Omitted Data:** Some utility accounts do not necessarily fit into building use categories. These types of accounts were removed from parcel-based designation to ensure the consumption from these types of accounts are not mis-attributed to a building’s energy consumption. For example, streetlights or water pumps are not uses that relate to a building on a parcel, and have been aggregated into additional non-building based categories. These categories are available in the download dataset, but not visualized on the website as they are not building energy data.
+**Omitted Data:** Some utility accounts do not necessarily fit into building use categories. These accounts were removed from parcel-based designation to ensure that their consumption is not mis-attributed to a building. For example, streetlights and water pumps are not uses that relate to a building on a parcel. These categories are not visualized on the website as they are not building energy data.
 
 #### Non-Building Related Uses (derived from utility account information) Available in the Download Data
 
