@@ -155,7 +155,7 @@ Residential account geocoding match rates tend to be higher than nonresidential 
 
 **7. Data Masking Challenges**
 
-The Energy Atlas must adhere to data privacy guidelines from the California Public Utilities Commission 2014 Decision 14-05-016 by Judge Sullivan. As such, geographies are masked if there are less than 15 nonresidential customers, or if one account consumes more than 15% of the total energy in a geography. For residential, there must be more than 100 customers. These privacy regulations trigger certain use types more than others. For example, industrial consumption is largely masked for a majority of geographies due to individual industrial customers consuming a disproportionate amount of energy in an area (i.e. refineries, large production facilities, etc.).
+The Energy Atlas must adhere to data privacy guidelines from the California Public Utilities Commission 2014 Decision 14-05-016 by Judge Sullivan. As such, geographies are masked if they contain fewer than 15 nonresidential customers, or if one account consumes more than 15% of the total energy in a geography. For residential, there must be more than 100 customers. These privacy regulations trigger certain use types more than others. For example, industrial consumption is largely masked for a majority of geographies due to individual industrial customers consuming a disproportionate amount of energy in an area (i.e. refineries, large production facilities, etc.).
 
 Due to the risk of reverse calculation and high levels of nonresidential masking, the Atlas is not able to provide total consumption figures for residential \+ nonresidential use types at this point.
 
