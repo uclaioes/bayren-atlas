@@ -3,7 +3,7 @@ layout: page_
 title: Tutorial
 ---
 
-These tutorials describe how to use the maps, adjustment visualizations, and compare geographies on the Profiles page.
+These tutorials describe how to use the maps, adjust visualizations, and compare data across geographies on the Profiles page.
 
 ## Visualization
 
@@ -137,24 +137,23 @@ These layers may be toggled using the map controls available on the left side of
 
 While all layers are technically available to toggle off and on, we recommend maintaining the visibility of the Consumption layer when multiple months and years of consumption data are available. Users will only get accurate information about consumption for the entire time period when the Consumption layer remains visible.
 
-![Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area. Both DAC Census Tracts and Non DAC Census Tracts layers are made visible. The Map is zoomed into a census tract in San Francisco County with the tooltip open, showing the name of the census tract as well as the CalEnviroscreen percentile score.]({{ "/assets/images/tutorial/tutorial-bld-dac-hover.png" | relative_url }})
+![Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area. Both DAC Census Tracts and Non-DAC Census Tracts layers are made visible. The Map is zoomed into a census tract in San Francisco County with the tooltip open, showing the name of the census tract as well as the CalEnviroscreen percentile score.]({{ "/assets/images/tutorial/tutorial-bld-dac-hover.png" | relative_url }})
 
-Map layers of DAC and Non DAC census tracts derived from CalEnviroscreen 4.0 are available as map overlays separately, to increase the flexibility of the layer control.
+Map layers of DAC and Non-DAC census tracts derived from CalEnviroscreen 4.0 are available as map overlays separately, to increase the flexibility of the layer control.
 
 ### How do I access CalEnviroscreen scores along with the consumption data?
 
 There are two ways in which CalEnviroscreen 4.0 data are incorporated into the atlas.
 
-1. The first is via the map pages. By default, the CalEnviroscreen 4.0 map layers are hidden. By opening the Layer Control menu in the map menu near the top left of the map area, the option to show DAC geographies (DAC Census Tracts) and Non DAC (Non DAC Census Tracts) will become available. These layers are meant for context. Turning them on will prioritize their tooltips on hover.
+1. The first is via the map pages. By default, the CalEnviroscreen 4.0 map layers are hidden. By opening the Layer Control menu in the map menu near the top left of the map area, the option to show DAC geographies (DAC Census Tracts) and Non-DAC (Non-DAC Census Tracts) will become available. These layers are meant for context. Turning them on will prioritize their tooltips on hover.
 
    See *How do I control the visibility of map layers* for more details.
 
 2. The second is through the Profiles page. The final two graphs of the Profile page provide data on consumption and population per CalEnviroscreen 4.0 score quartiles.
 
-\<.png\>
-Alt text: Screenshot of the very bottom of the Profiles page, showing the two available graphs that incorporate CalEnviroscreen score data.
+* NOTE: The population graph is not currently available pending a data processing update.
 
-Because Census Places and Zip Code Tabulation areas do not necessarily align with Census Tracts, these graphs will only populate when viewing Census Tracts or Counties.
+Because Census Places and Zip Code Tabulation Areas do not necessarily align with Census Tracts, these graphs will only populate when viewing Census Tracts or Counties.
 
 ## Profiles
 
