@@ -96,7 +96,7 @@ There are two ways to make selections on the map, which can be found in the map 
 
 You will see graphical monthly data and a data summary pop up for your selection(s) at the bottom of the screen.
 
-* NOTE: While you can select as many geographies as you’d like, we suggest no more than 3 or 4\. Depending on the size of your screen, results may be obscured with larger selections.
+* NOTE: While you can select as many geographies as you’d like, we suggest no more than 3 or 4. Depending on the size of your screen, results may be obscured with larger selections.
 
 To make a new selection, simply click a new geography (without the ctrl or command button) or use the rectangle selection tool. To clear a selection, either *Ctrl* (Windows) or *command* (Mac) and click the geography you want to unselect. Alternatively, to clear the entire selection, click anywhere on the map that is outside the included geographies.
 
