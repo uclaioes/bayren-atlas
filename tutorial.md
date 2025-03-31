@@ -3,7 +3,7 @@ layout: page_
 title: Tutorial
 ---
 
-Scroll or use the left-side navigation to browse tutorials. These tutorials are to aid use of the map, adjustments of visualizations, the comparison of geographies through the Profiles page.
+These tutorials describe how to use the maps, adjustment visualizations, and compare geographies on the Profiles page.
 
 ## Visualization
 
