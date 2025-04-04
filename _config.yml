@@ -42,12 +42,14 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header_pages:
+map_paths:
 - bld.md
 - sqft.md
 - vintage.md
 - income.md
 - profiles.md
+
+other_paths:
 - tutorial.md
 - methods.md
 

@@ -52,6 +52,11 @@ body {
   transform: translateX(0);
 }
 
+.nav hr {
+  border: 0.5px solid black;
+  margin: 10px 15px;
+}
+
 #menu-toggle {
   display: block;
   position: fixed;
