@@ -48,6 +48,8 @@ map_paths:
 - profiles.md
 
 other_paths:
+- about.md
+- faq.md
 - tutorial.md
 - methods.md
 
