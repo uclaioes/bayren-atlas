@@ -3,7 +3,7 @@ layout: page_
 title: About
 ---
 
-The Bay Area Energy Atlas is a database of building energy consumption that links PG\&E metered energy consumption to building characteristics, sociodemographic data, and other significant attributes. This website is a public data resource that displays spatially aggregated annual energy consumption statistics for the nine Bay Area counties.
+The Bay Area Energy Atlas is a database of building energy consumption that links PG&E metered energy consumption to building characteristics, sociodemographic data, and other significant attributes. This website is a public data resource that displays spatially aggregated annual energy consumption statistics for the nine Bay Area counties.
 
 The ability to associate energy consumption with buildings and population information allows users to ask deeper questions about how energy is being used. For example, what types of buildings in Alameda County have the highest energy intensity per unit area? How does energy consumption vary spatially, by population density, by income level, or by industry? How does energy consumption compare between single family homes in coastal Half Moon Bay and inland Vacaville? These types of fundamental questions are impossible to answer without a spatial database that merges these datasets together.
 
