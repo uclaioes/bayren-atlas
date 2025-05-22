@@ -183,11 +183,9 @@ Energy consumption billing data is organized around billing dates that are speci
 
 ### Building Use Types
 
-As discussed previously, a primary unit of analysis in this research is the megaparcel, a parcel layer whose attributes have been dissolved based upon its geometry. Each megaparcel is assigned a building type according to its use and construction design. The building type categories are based on use codes as assigned by the County Assessor.
+A primary unit of analysis in this research is the *megaparcel*, a parcel layer whose attributes have been dissolved based upon its geometry. Each megaparcel is assigned a use type according to its use and construction design. The building use type categories are based on use codes as assigned by the County Assessor.
 
 CCSC researchers reclassified building types into 7 main categories of megaparcels (which include multiple overlapping parcels that are co-located or “stacked” within the same building, such as condominiums).
-
-For residential parcels which did not clearly fall within the single family and multi-family categories, a new category of “residential other” was created, to include parcels for mobile homes and trailer parks, rural residential, boarding houses, manufactured homes, and unknown residential use codes that did not clearly fall under the single family or multi-family category. All three of these major residential use types are combined together to form a “residential” total reported for each geography. If a parcel use code does not fit into one of the pre-set categories, it is placed into the “other” category, which spans a diverse range of uses including vacant land, agriculture, and miscellaneous others.
 
 ### Security
 

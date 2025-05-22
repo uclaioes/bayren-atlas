@@ -15,15 +15,15 @@ We believe that energy data should be more transparent and used to create data-d
 ## How can I download Atlas data?
 
 The complete aggregated data is available to download in CSV format on the Data Download page. In addition, users can download data specific to a certain view using the data download options available on the Profiles page.
-For more details, visit the Tutorial page.
+For more details, visit the Tutorial.
 
 * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.
 
 ## Can I access total consumption values across multiple geographies?
 
-Total consumption values are currently only available in the Profiles page when more than one geography is selected. Those totals, however, represent the sum of the pre-masked data.
+Total consumption values are currently only available in the Profiles page when more than one geography is selected and the “aggregate” option is chosen. Those totals, however, represent the sum of the pre-masked data.
 
-In an abundance of caution, totals are currently unavailable so we can ensure adherence to the 15/15 Rule and provide more detailed aggregations of energy by use type, year built, and other important attributes unique to the Atlas.
+In an abundance of caution, totals are currently unavailable so we can ensure adherence to the 15/15 Rule and provide more detailed aggregations of energy by use type, year built, and other important attributes unique to the Atlas. When an aggregation includes an instance of masked data it will be marked with an “x” to indicate that it does not include all possible consumption.
 
 Data privacy masking rules, as currently written, create conflicting masking limitations based on sector and the location of high consuming customers. In a majority of cases, nonresidential (especially industrial) consumption is masked due to violating the 15/15 Rule. If a combined total is included, the smaller sub-use types are more highly masked to prevent the possibility of reverse calculating a masked value. To ensure that no individual use type can ever be reverse calculated from the total, additional masking of more sub-use types would be necessary.
 
@@ -31,7 +31,7 @@ Because the goal of this tool is to allow users to explore more energy data in c
 
 ## Can I access the underlying data behind the Atlas?
 
-The short answer is no. Users currently only have access to the aggregated data. The underlying energy data is confidential to protect customer privacy, and was shared with UCLA researchers through a Non-Disclosure Agreement.
+The short answer is no. Users currently only have access to the pre-aggregated data. The underlying energy data is confidential to protect customer privacy, and was shared with UCLA researchers through a Non-Disclosure Agreement.
 
 ## Why is some data masked (and what does that mean)?
 

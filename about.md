@@ -3,7 +3,7 @@ layout: page_
 title: About
 ---
 
-The Bay Area Energy Atlas is a database of building energy consumption that links PG&E metered energy consumption to building characteristics, sociodemographic data, and other significant attributes. This website is a public data resource that displays spatially aggregated annual energy consumption statistics for the nine Bay Area counties.
+The Bay Area Energy Atlas is a database of building energy consumption that links PG\&E metered energy consumption to building characteristics, sociodemographic data, and other significant attributes. This website is a public data resource that displays spatially aggregated monthly energy consumption statistics for the nine Bay Area counties.
 
 The ability to associate energy consumption with buildings and population information allows users to ask deeper questions about how energy is being used. For example, what types of buildings in Alameda County have the highest energy intensity per unit area? How does energy consumption vary spatially, by population density, by income level, or by industry? How does energy consumption compare between single family homes in coastal Half Moon Bay and inland Vacaville? These types of fundamental questions are impossible to answer without a spatial database that merges these datasets together.
 
@@ -17,13 +17,13 @@ The Energy Atlas is developed by the [California Center for Sustainable Communit
 
 The maps visually display energy consumption across counties, census places, zip code tabulation areas, and census tract, as well as by building type, and type of energy. Users can view data as total consumption, median consumption, median per square foot consumption and per capita consumption. Three of the map pages provide another element of detail: building size, building vintage, and residential income (area median income). Each consumption value is calculated from individual meters and aggregated to protect customer privacy. Some areas are masked to protect customer privacy.
 
-![Screenshot of the Building Type map view set to show the total natural gas consumption of buildings categorized as Single-Family by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }}){: title="Energy consumption by Building Type map view"}
+![Screenshot of the Building Type map view set to show the total natural gas consumption of buildings categorized as Multi-Family by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }}){: title="Energy consumption by Building Type map view"}
 
 ### Profiles
 
 The Profiles page provides detailed information and comparisons for each geography level including longitudinal data from 2015-2021 where available. Users can download data specific to the filtered Profiles page view through the controls in the upper right-hand corner of the Profile page, while the complete data will also be available for download through the Data Download page.
 
-![Screenshot of the very top of the Profiles page, showing the filter selection bar as well as the first bar graph, which displayed the summed total of the selected counties.]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }}){: title="Profile view summing the consumption of three counties."}
+![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.\]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }}){: title="Profile view summing the consumption of three counties."}
 
 ### Findings
 
@@ -53,4 +53,4 @@ The combination of data provides insights into relationships essential to the de
 
 ## About the CCSC
 
-The mission of the California Center for Sustainable Communities, founded and directed by Dr. Stephanie Pincetl, is to create actionable science that improves the sustainability of urban systems. It aims to provide intellectual and conceptual frameworks for new synthesis and thinking in sustainability research for all Californians. For cities to remain habitable, profound changes need to occur both in cities themselves and in the ways they impact the surrounding landscapes and hinterlands. Achieving progress toward sustainability requires maintaining and improving both human and ecosystem well-being. Our challenge is to make cities into centers of sustainability in the ways they develop and redevelop beyond the next century.
+The mission of the California Center for Sustainable Communities at UCLA, founded and directed by Dr. Stephanie Pincetl, is to create actionable science that improves the sustainability of urban systems. It aims to provide intellectual and conceptual frameworks for new synthesis and thinking in sustainability research for all Californians. For cities to remain habitable, profound changes need to occur both in cities themselves and in the ways they impact the surrounding landscapes and hinterlands. Achieving progress toward sustainability requires maintaining and improving both human and ecosystem well-being. Our challenge is to make cities into centers of sustainability in the ways they develop and redevelop beyond the next century.
