@@ -51,7 +51,7 @@ The third column denotes the energy type: Electricity Consumption (kWh), Combine
 
 ![Alt text: Screenshot of toolbar in Building Vintage map view set to show the total electricity consumption of buildings categorized as Single-Family and built 1978-1989 by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-vint-map-page.png" | relative_url }})
 
-* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, Zip Code * * Tabulation Areas, and Counties.
+* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The second dropdown menu allows for selection of the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The third menu denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The fourth menu displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Unknown.
@@ -172,7 +172,7 @@ To clear the selection, click on any white space within the graph window or begi
 
 With at least one geography selected, a “View Profile” or “View Profiles” button will appear in the top left of the data summary window, which will take you to the Profiles page along with the geography selections. 
 
-![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies. The Back to Building Type Map button is highlighted with a tooltip.]({{ "/assets/images/tutorial/-profiles-page-return.png" | relative_url }})
+![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies. The Back to Building Type Map button is highlighted with a tooltip.]({{ "/assets/images/tutorial/tutorial-profiles-page-return.png" | relative_url }})
 
 When you have navigated to the Profiles page directly from a map page, there will be a highlighted button in the left-hand block of blue-highlighted text that will allow you to return to the map page. More information on the Profiles page is available in the Profiles section.
 
@@ -184,7 +184,7 @@ If you have selected a geography from a map, and navigate to the Profiles page v
 
 You can also navigate to the Profiles page independently of the map, by using the Menu in the upper-right corner of the window. When you enter the Profiles page without a map selection, the graphs will be unpopulated until a selection is made in the map or the top filters.
 
-![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.]]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }})
+![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }})
 
 * The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The second menu allows you to filter the map and geography list to a specific county of interest.
@@ -206,11 +206,11 @@ Each visualization will have an info button which, upon hover, will provide a de
 
 For several of the visualizations, there is an additional option to choose how to view the data. For instance, in the Building Vintage section, the graphs or the tables can be organized by Vintage:
 
-![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/-profiles-vintage-color.png" | relative_url }})
+![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/tutorial-profiles-vintage-color.png" | relative_url }})
 
 Or by both Vintage and Usetype:
 
-![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized by Vintage bracket and colored by usetype.]({{ "/assets/images/tutorial/-profiles-usetype-color.png" | relative_url }})
+![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized by Vintage bracket and colored by usetype.]({{ "/assets/images/tutorial/tutorial-profiles-usetype-color.png" | relative_url }})
 
 When an “x” appears in a graph or table, that is an indication that masked data is present. 
 
