@@ -90,13 +90,16 @@ While all layers are technically available to toggle off and on, we recommend ma
 
 Map layers of DAC and Non-DAC census tracts derived from CalEnviroscreen 4.0 are available as map overlays separately, to increase the flexibility of the layer control.
 
-### How can I interact with the map?
+### How can I interact with the maps?
 
 Each interactive map will have shared and unique variables available for adjustment at the top of the window. The options are described in the section *How can I customize the map?*
 
 In addition to the filter selections available at the top of the map, there is a menu of extra map controls below the legend. When viewing the map, you can use the “Filter Census Tracts by County” dropdown to view the census tracts that lie within the county of interest, as well as the Census Places and Zip Code Tabulation areas that intersect the county of interest. When viewing Census Places, there is the additional option to filter based on whether or not the geography is incorporated or unincorporated.
 
+Here the extra map controls reflect the options available with the County view:
 ![Screenshot of the Building Type map with a dotted blue outline around the Extra Map Controls available near the top right corner of the map page below the legend.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }})
+
+Here the extra map controls include the Census Places filter available with the Census Places view:
 ![Screenshot of the Building Type map organized by census places with the Extra Map Controls available near the top right corner of the map page below the legend. The census places filter for incorporation status is visible.]({{ "/assets/images/tutorial/tutorial-bld-extra-map-controls.png" | relative_url }})
 
 Below the filters is an option to show and hide map labels, which may be useful when examining consumption of the more granular geography levels.
@@ -125,7 +128,7 @@ To make a new selection, simply click a new geography (without the *ctrl* or *co
 
 * NOTE: If the data summary is available at the bottom of the screen, you have at least one geography selected. The website will maintain your selection when you navigate to the Profiles page via the View Profiles navigation button on the top left of the data summary.
 
-#### **Graph**
+#### **Time Series Graph**
 
 For each selected geography, the graph in the bottom of the window will show the consumption for each selected month of each selected year. Below the graph, a data summary for the geographies will also be available.
 
@@ -139,6 +142,8 @@ When aggregating, a single graph will display while maintaining separate data su
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected with the aggregate option open. A tooltip for 2017 for all selected geographies is populated.]({{ "/assets/images/tutorial/tutorial-bld-aggregate-tooltip.png" | relative_url }})
 
+#### **How do I interpret masking in the graph?**
+
 When aggregating geographies in instances where masking is present, the aggregated graph will maintain a masking flag, to highlight that the aggregation is incomplete due to the presence of masking in at least one of the geographies.
 
 As an example, below is the Building Type map with Sonoma County and Alameda County selected in the comparison state. With Industrial use type selected, masking is present (indicated by a gray “x”) across multiple months of the Alameda County data.
@@ -151,7 +156,7 @@ When the aggregate option is selected, the masking indicator will remain present
 
 * NOTE: When viewing consumption as a statistic (*median, median per sq. ft., per capita*) in the aggregation state for multiple geographies, the graph values will display the median of the monthly statistical value (i.e. median of monthly per capita values). This happens because the statistical values are precomputed in the backend of the database.
 
-#### **Selections in the graph**
+#### **How do I make selections in the graph?**
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A tooltip for 2019 of Alameda County is populated.]({{ "/assets/images/tutorial/tutorial-bld-graph-hover.png" | relative_url }})
 
@@ -168,9 +173,9 @@ The selection will filter to only the selected years and update the aggregation 
 
 To clear the selection, click on any white space within the graph window or begin a new selection.
 
-#### **Entering the Profiles page from a map**
+### How do I enter the Profiles page through the map?
 
-With at least one geography selected, a “View Profile” or “View Profiles” button will appear in the top left of the data summary window, which will take you to the Profiles page along with the geography selections. 
+With at least one geography selected, a “View Profile” or “View Profiles” button will appear in the top left of the data summary window, which will take you to the Profiles page with your geographies selected. 
 
 ![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies. The Back to Building Type Map button is highlighted with a tooltip.]({{ "/assets/images/tutorial/tutorial-profiles-page-return.png" | relative_url }})
 
@@ -202,6 +207,8 @@ You can also navigate to the Profiles page independently of the map, by using th
 
     * NOTE: While you can select as many geographies as you’d like, when comparing data, we suggest no more than 3 or 4. Depending on the size of your screen, results may be obscured with larger selections.
 
+### How do I interact with the visualizations?
+
 Each visualization will have an info button which, upon hover, will provide a description of that visualization. 
 
 For several of the visualizations, there is an additional option to choose how to view the data. For instance, in the Building Vintage section, the graphs or the tables can be organized by Vintage:
@@ -212,14 +219,18 @@ Or by both Vintage and Usetype:
 
 ![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized by Vintage bracket and colored by usetype.]({{ "/assets/images/tutorial/tutorial-profiles-usetype-color.png" | relative_url }})
 
+### How do I interpret masked data on the Profiles page?
+
 When an “x” appears in a graph or table, that is an indication that masked data is present. 
 
 ![Screenshot of the first Building Types graph available on the Profiles page with a masked indicator highlighted in the tooltip.]({{ "/assets/images/tutorial/tutorial-profile-masked.png" | relative_url }})
 
 When examining the graphs of Building Vintage, Building Size, Residential Income, and CalEnviroscreen scores, a masking indicator may be present, but will not specify in which use type category the masking may occur. 
+
 ![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/tutorial-profile-masked-agg.png" | relative_url }})
 
 To get the most detailed information on the origin of masking, choose to compare geographies if more than one is selected, view the profiles page as tables, and choose to organize by both the relevant category as well as the use type.
+
 ![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/tutorial-profile-masked-agg-table.png" | relative_url }})
 
 ### How do I access CalEnviroscreen scores along with the consumption data?
