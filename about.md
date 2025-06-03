@@ -23,7 +23,7 @@ The maps visually display energy consumption across counties, census places, zip
 
 The Profiles page provides detailed information and comparisons for each geography level including longitudinal data from 2015-2021 where available. Users can download data specific to the filtered Profiles page view through the controls in the upper right-hand corner of the Profile page, while the complete data will also be available for download through the Data Download page.
 
-![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.\]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }}){: title="Profile view summing the consumption of three counties."}
+![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.]({{ "/assets/images/tutorial/tutorial-profiles-page-return.png" | relative_url }}){: title="Profile view summing the consumption of three counties."}
 
 ### Findings
 
