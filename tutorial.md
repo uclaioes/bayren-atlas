@@ -179,11 +179,11 @@ With at least one geography selected, a “View Profile” or “View Profiles�
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the bar graphs and summaries below the map. A tooltip displays near the "Go to Profiles" button.]({{ "/assets/images/tutorial/tutorial-bld-go-profiles.png" | relative_url }})
 
-When you have navigated to the Profiles page directly from a map page, there will be a highlighted button in the left-hand block of blue-highlighted text that will allow you to return to the map page. 
+When you have navigated to the Profiles page directly from a map page, there will be a highlighted button in the left-hand block of blue text that will allow you to return to the map page. 
 
 ![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies. The Back to Building Type Map button is highlighted with a tooltip.]({{ "/assets/images/tutorial/tutorial-profiles-page-return.png" | relative_url }})
 
-More information on the Profiles page is available in the Profiles section.
+More information on the Profiles page is available in the next section.
 
 ## Profiles
 
@@ -242,7 +242,7 @@ To get the most detailed information on the origin of masking, follow these step
 
 ![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/tutorial-profile-masked-agg-table.png" | relative_url }})
 
-Where the bar chart indicated that masking was present somewhere in Alameda County for April 2021 and buildings built before 1949, the table makes clear that the consumption associated with the industrial use type was masked.
+Where the bar chart indicated that masking was present somewhere in Alameda County for April 2021 and buildings built before 1949, the table makes clear that the masking orginiated with the consumption associated with the industrial use type.
 
 ### How do I access CalEnviroscreen scores along with the consumption data?
 
@@ -264,13 +264,13 @@ Because Census Places and Zip Code Tabulation Areas do not necessarily align wit
 
 For data specific to a current view, users can use the download options available in the upper right-hand corner of the Profiles page.
 
-* NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.
-
 ![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .img-icon}
 
 * Crosstab: Opens a dialog window to select download options. If viewing a dashboard, select a sheet from the dashboard to download. Under Select Format, select .csv or Microsoft Excel .xlsx.
 
   For dashboards, all sheets will be listed, including hidden sheets. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded crosstab.
+
+    * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.  
 
 ![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }}){: .img-icon}
 
