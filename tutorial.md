@@ -30,7 +30,7 @@ For each map, use the drop-down options above the map to customize what you woul
 * The fourth menu displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Unknown.
 * The final two menus allow month and year selection. Any combination of months and years may be selected. 
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
   
 #### **Map by Building Size**
 
@@ -43,7 +43,7 @@ The third column denotes the energy type: Electricity Consumption (kWh), Combine
 * The fifth dropdown allows you to select the building square footage: 0-10k sq. ft., 10k-20k sq. ft., 20k-30k sq. ft., 30k-40k sq. ft., 40k-50k sq. ft., Over 50k sq. ft., and Unknown.
 * The final two columns allow month and year selection. Any combination of months and years may be selected.
   
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
       
 #### **Map by Building Vintage**
 
@@ -56,7 +56,7 @@ The third column denotes the energy type: Electricity Consumption (kWh), Combine
 * The fifth dropdown allows you to select the time period in which buildings were built: Before 1949, 1950-1977, 1978-1989, After 1990, and Unknown.
 * The final two columns allow month and year selection. Any combination of months and years may be selected.
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
 
 #### **Map by Residential Income**
 
@@ -72,7 +72,7 @@ The third column denotes the energy type: Electricity Consumption (kWh), Combine
 
 * The final two columns allow month and year selection. Any combination of months and years may be selected. 
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
 
 ## Using the Maps
 
@@ -140,7 +140,7 @@ When aggregating, a single graph will display while maintaining separate data su
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected with the aggregate option open. A tooltip for 2017 for all selected geographies is populated.]({{ "/assets/images/tutorial/tutorial-bld-aggregate-tooltip.png" | relative_url }})
 
-* NOTE: When viewing consumption as a statistic (*median, median per sq. ft., per capita*) in the aggregation state for multiple geographies, the graph values will display the median of the monthly statistical value (i.e. median of monthly per capita values). This happens because the statistical values are precomputed in the backend of the database.
+* NOTE: When viewing consumption as a statistic (*median, median per sq. ft., per capita*) in the aggregation state for multiple geographies, the graph values will display the median of the monthly statistical value (i.e. median of monthly per capita values). This happens because the statistical values are precomputed in the confidential backend of the database.
 
 #### **How do I interpret masking in the graph?**
 
@@ -196,20 +196,18 @@ You can also navigate to the Profiles page independently of the map, by using th
 ![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }})
 
 * The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
-* The second menu allows you to filter the map and geography list to a specific county of interest.
-* The third option allows you to choose specific geographies to compare. This dropdown will update depending on the selected geographic level as well as the county filter. 
-* Next, you can choose whether to compare or aggregate the data for the selected geographies.
-
-    * NOTE: The data summary and renter/owner graphs will not change with this option. All other visualizations in the Profiles page will adjust based on the aggregate/compare option.
-
-
+* The second option allows you to choose specific geographies to compare. This dropdown will update depending on the selected geographic level as well as the county filter. 
 * The next column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The following two columns allow month and year selection. Any combination of months and years may be selected. 
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (Median, Median Per Sq. Ft., Per Capita), the values displayed in visualizations will show the median of those values for the time periods selected. This happens because the statistical values are precomputed in the backend of the database. When Total is selected, the map and graphs will display the sum over the time periods selected. 
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (Median, Median Per Sq. Ft., Per Capita), the values displayed in visualizations will show the median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. When Total is selected, the map and graphs will display the sum over the time periods selected. 
 
-
-* Finally, you can choose to view the Profiles page data visualizations as bar graphs or as tables. 
+Below the Demographics information, you are give the option to choose the analysis mode and the results view"
+* Choose whether to compare or aggregate the data for the selected geographies.
+  
+    * NOTE: The data summary and renter/owner graphs will not change with this option. All other visualizations in the Profiles page will adjust based on the aggregate/compare option.
+      
+* Choose to view the Profiles page data visualizations as bar graphs or as tables. 
 
     * NOTE: While you can select as many geographies as you’d like, when comparing data, we suggest no more than 3 or 4. Depending on the size of your screen, results may be obscured with larger selections.
 
@@ -262,7 +260,9 @@ Because Census Places and Zip Code Tabulation Areas do not necessarily align wit
 
 ### How do I download the data?
 
-For data specific to a current view, users can use the download options available in the upper right-hand corner of the Profiles page.
+To download all of the data that drives the public atlas tool, navigate to the Data Download page from the main menu.
+
+For data specific to a current view (i.e. a set of filtered data), users can use the download options available in the upper right-hand corner of the Profiles page.
 
 ![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .img-icon}
 
