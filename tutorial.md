@@ -202,7 +202,7 @@ You can also navigate to the Profiles page independently of the map, by using th
 
     * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (Median, Median Per Sq. Ft., Per Capita), the values displayed in visualizations will show the median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. When Total is selected, the map and graphs will display the sum over the time periods selected. 
 
-Below the Demographics information, you are give the option to choose the analysis mode and the results view"
+Below the Demographics information, you are given the option to choose the analysis mode and the results view:
 * Choose whether to compare or aggregate the data for the selected geographies.
   
     * NOTE: The data summary and renter/owner graphs will not change with this option. All other visualizations in the Profiles page will adjust based on the aggregate/compare option.
