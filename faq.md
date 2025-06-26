@@ -19,15 +19,17 @@ For more details, visit the Tutorial.
 
 * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.
 
-## Can I access total consumption values across multiple geographies?
+## Can I compute aggregated consumption values across multiple geographies?
 
-Total consumption values are currently only available in the Profiles page when more than one geography is selected and the “aggregate” option is chosen. Those totals, however, represent the sum of the pre-masked data.
+User-aggregated consumption values are available in the map and Profiles page when more than one geography is selected and the “aggregate” option is chosen. 
 
-In an abundance of caution, totals are currently unavailable so we can ensure adherence to the 15/15 Rule and provide more detailed aggregations of energy by use type, year built, and other important attributes unique to the Atlas. When an aggregation includes an instance of masked data it will be marked with an “x” to indicate that it does not include all possible consumption.
+When viewing "total" consumption, the aggregate option will sum the available data. To prevent back-calculation, however, if a geography has been masked for a certain month and it is aggregated with another geography, the sum for that particular month will not include the masked data.
+
+When the "aggregate" option is selected for a statistical distribution (Median, Median Per Sq. Ft., Per Capita), the values displayed in the visualizations will show the monthly *median* of the available values. This happens because the statistical values are precomputed in the confidential backend of the database. In other words, except for the case of the "total" metric, user-level aggregations do not involve new computations of the underlying data.
+
+These measures are employed in an abundance of caution to ensure adherence to the 15/15 Rule and provide more detailed aggregations of energy by use type, year built, and other important attributes to individual geographies available in the Atlas. When an aggregation includes an instance of masked data, it will be marked with an “x” to indicate that it does not include all possible consumption.
 
 Data privacy masking rules, as currently written, create conflicting masking limitations based on sector and the location of high consuming customers. In a majority of cases, nonresidential (especially industrial) consumption is masked due to violating the 15/15 Rule. If a combined total is included, the smaller sub-use types are more highly masked to prevent the possibility of reverse calculating a masked value. To ensure that no individual use type can ever be reverse calculated from the total, additional masking of more sub-use types would be necessary.
-
-Because the goal of this tool is to allow users to explore more energy data in context of more specific use types, particularly within the residential and commercial sector, we have decided to remove the total from this tool. As a result, more than 2,000 more data points of specific use types are unmasked and accessible on this website.
 
 ## Can I access the underlying data behind the Atlas?
 
