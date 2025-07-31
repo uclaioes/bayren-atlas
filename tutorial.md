@@ -264,6 +264,8 @@ To download the data that drive the public atlas tool, navigate directly to the 
 
 ![Screenshot of the top of the Profiles page with the tooltip for the data download navigation button open.]({{ "/assets/images/tutorial/tutorial-profile-download-nav.png" | relative_url }})
 
+You will be redirected to the Data Download page.
+
 ![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }})
 
 * The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
@@ -286,7 +288,7 @@ The following table provides relevant details on the data available in the downl
 
 | Column Name | Column Description | Column Unit |
 |---|---|---|
-| GEOID | Geographic identifier for the selected geography | Census Bureau [Geographic Identifier](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html) |
+| GEOID | Census Bureau [Geographic Identifier](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html) | NA | 
 | display name| Formatted name of the selected geography | NA |
 | usetype | Building use type category | NA |
 | secondary category | When applicable, this will show the available bins for building vintage, building size, and Area Median Income | Vintage year, square feet, or percent of area median income |
@@ -307,7 +309,7 @@ The following table provides relevant details on the data available in the downl
 | therm_per_sqft_median | Median per square foot natural gas consumption in therms | Therms/sqft |
 | therm_percap* | Per capita natural gas consumption in therms | Therms/population |
 
-*Keep in mind that while per capita consumption is avaialble for all building use types, the value is mostly appropriately applied to residential use types categories.
+*Keep in mind that while per capita consumption is avaialble for all building use types, it may not be appropriate for non residential use type categories.
   
 ### How do I download the data or vizualiasions from the Profiles page?
 
