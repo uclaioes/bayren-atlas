@@ -309,7 +309,7 @@ The following table provides relevant details on the data available in the downl
 | therm_per_sqft_median | Median per square foot natural gas consumption in therms | Therms/sqft |
 | therm_percap* | Per capita natural gas consumption in therms | Therms/population |
 
-*Keep in mind that while per capita consumption is avaialble for all building use types, it may not be appropriate for non residential use type categories.
+*Keep in mind that while per capita consumption is available for all building use types, it may not be appropriate for non residential use type categories.
   
 ### How do I download the data or vizualiasions from the Profiles page?
 
