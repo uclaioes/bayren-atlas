@@ -262,9 +262,9 @@ Because Census Places and Zip Code Tabulation Areas do not necessarily align wit
 
 To download the data that drive the public atlas tool, navigate directly to the Data Download page from the main menu or use the download option available through the Profiles page.
 
-![Screenshot of the top of the Profiles page with the tooltip for the data download navigation button open.]({{ "/assets/images/tutorial/tutorial-profile-download-nav.png" | relative_url }}){: .img-icon}
+![Screenshot of the top of the Profiles page with the tooltip for the data download navigation button open.]({{ "/assets/images/tutorial/tutorial-profile-download-nav.png" | relative_url }})
 
-![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }}){: .img-icon}
+![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }})
 
 * The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
 * The second option allows filtering to a specific county of interest.
@@ -276,11 +276,11 @@ To download the data that drive the public atlas tool, navigate directly to the 
 
 A data download preview will appear beflow the filter options and the download button. Use this preview to validate your download. Any values of -999,999,999 indicate masking. Please refer to the FAQ or Methods document for more information on masking.
 
-![Screenshot of the top of the Data Download Preview for Alameda County with Multi-Family use type, Building Type, all months, and the year of 2021 selected.]({{ "/assets/images/tutorial/tutorial-download-preview.png" | relative_url }}){: .img-icon}
+![Screenshot of the top of the Data Download Preview for Alameda County with Multi-Family use type, Building Type, all months, and the year of 2021 selected.]({{ "/assets/images/tutorial/tutorial-download-preview.png" | relative_url }})
 
 Selecting the blue "Download Data Table" button will open a window that gives the option to download the data as an Excel workbook or a comma separated values (CSV) file. Select "Bay Area Energy Atlas Data Download." If you have entered the Data Downlaod through the Profiles page, unselect "Return to Prof," which, as the navigation back to the Profiles page, does not contain any relevant data.
 
-![Screenshot of the opened data download dialog box.]({{ "/assets/images/tutorial/tutorial-download-dialog.png" | relative_url }}){: .img-icon}
+![Screenshot of the opened data download dialog box.]({{ "/assets/images/tutorial/tutorial-download-dialog.png" | relative_url }})
 
 | Column Header | Description | Unit |
 |---|---|---|
