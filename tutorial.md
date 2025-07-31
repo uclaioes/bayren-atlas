@@ -260,17 +260,60 @@ Because Census Places and Zip Code Tabulation Areas do not necessarily align wit
 
 ### How do I download the data?
 
-To download all of the data that drives the public atlas tool, navigate to the Data Download page from the main menu.
+To download the data that drive the public atlas tool, navigate directly to the Data Download page from the main menu or use the download option available through the Profiles page.
 
-For data specific to a current view (i.e. a set of filtered data), users can use the download options available in the upper right-hand corner of the Profiles page.
+![Screenshot of the top of the Profiles page with the tooltip for the data download navigation button open.]({{ "/assets/images/tutorial/tutorial-profile-download-nav.png" | relative_url }}){: .img-icon}
+
+![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }}){: .img-icon}
+
+* The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
+* The second option allows filtering to a specific county of interest.
+* The third menu allows you to choose specific geographies. This dropdown will update depending on the selected geographic level as well as the county filter. 
+* The next column allows for the selection of use tyes of interest, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Unknown.
+* The following column allows filtering based on the building category: Building Type, Building Size, Building Vintage, and Area Median Income.
+* The next column will appear with any selection except for the Building Type data, which will allow for the selection of the secondary building category (size, vintage, and area median income).
+* The final two columns allow month and year selection. Any combination of months and years may be selected.
+
+A data download preview will appear beflow the filter options and the download button. Use this preview to validate your download. Any values of -999,999,999 indicate masking. Please refer to the FAQ or Methods document for more information on masking.
+
+![Screenshot of the top of the Data Download Preview for Alameda County with Multi-Family use type, Building Type, all months, and the year of 2021 selected.]({{ "/assets/images/tutorial/tutorial-download-preview.png" | relative_url }}){: .img-icon}
+
+Selecting the blue "Download Data Table" button will open a window that gives the option to download the data as an Excel workbook or a comma separated values (CSV) file. Select "Bay Area Energy Atlas Data Download." If you have entered the Data Downlaod through the Profiles page, unselect "Return to Prof," which, as the navigation back to the Profiles page, does not contain any relevant data.
+
+![Screenshot of the opened data download dialog box.]({{ "/assets/images/tutorial/tutorial-download-dialog.png" | relative_url }}){: .img-icon}
+
+| Column Header | Description | Unit |
+|---|---|---|
+| GEOID | Geographic identifier for the selected geography | Census Bureau [Geographic Identifier](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html) |
+| display name| Formatted name of the selected geography | NA |
+| usetype | Building use type category | NA |
+| secondary category | When applicable, this will show the available bins for building vintage, building size, and Area Median Income | Vintage year, square feet, or percent of area median income |
+| year | Year of consumption | Year |
+| month | Month of consumption | Month |
+| pop | Total population | People |
+| sqft | Total square footage of relevant geography and use type | Square Feet |
+| btu | Total combined consumption in BTUs | BTU |
+| btu_median | Median combined consumption in BTUs | BTU |
+| btu_per_sqft_median | Median per square foot combined consumption in BTUs | BTU/sqft |
+| btu_percap* | Per capita combined consumption in BTUs| BTU/population |
+| kwh | Total electricty consumption in kWh | kWh |
+| kwh_median | Median electricty consumption in kWh | kWh |
+| kwh_per_sqft_median | Medin electricty consumption per square foot in kWh | kWh/sqft |
+| kwh_percap* | Per Capita electricty consumption in kWh | kWh/population |
+| therm | Total natural gas consumption in therms | Therms |
+| therm_median | Median natural gas consumption in therms | Therms |
+| therm_per_sqft_median | Median per square foot natural gas consumption in therms | Therms/sqft |
+| therm_percap* | Per capita natural gas consumption in therms | Therms/population |
+
+*Keep in mind that while per capita consumption is avaialble for all building use types, the value is mostly appropriately applied to residential use types categories.
+  
+### How do I download the data or vizualiasions from the Profiles page?
+
+For data specific to the current view in the Profiles page, users can use the download options available in the upper right-hand corner of the Profiles page.
 
 ![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .img-icon}
 
-* Crosstab: Opens a dialog window to select download options. If viewing a dashboard, select a sheet from the dashboard to download. Under Select Format, select .csv or Microsoft Excel .xlsx.
-
-  For dashboards, all sheets will be listed, including hidden sheets. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded crosstab.
-
-    * NOTE: When downloading a specific view to the Crosstab format directly from the Profiles page, the file will download consistent with the underlying construction of the atlas visualizations. That means the format of the file may require further organization by the user in order to remove elements necessary for the visualizations and perhaps unnecessary for use in a spreadsheet.  
+* This option will send users directly to the Data Download page with the currently selected geography or geographies. Use the available menu items to further filter the data if necessary (see *How do I download the data?* for more details).
 
 ![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }}){: .img-icon}
 
@@ -288,7 +331,7 @@ For data specific to a current view (i.e. a set of filtered data), users can use
 
   To produce individual images, rather than an image of the entire page, select *Specific sheets from this dashboard*.
 
-  Any filters, parameters, or selections currently applied in Tableau are reflected in the exported presentation. The generated PowerPoint file includes a title slide with the name of your workbook and the date the file was generated. The title is a hyperlink that opens the workbook in Tableau Cloud or Tableau Server.
+  Any filters, parameters, or selections currently applied in Tableau are reflected in the exported presentation. The generated PowerPoint file includes a title slide with the name of your workbook and the date the file was generated. The title is a hyperlink that opens the workbook in Tableau Cloud or Tableau Server, rather than the official Bay Area Energy Atlas website.
 
 <style>
   .img-icon {
