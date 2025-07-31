@@ -311,7 +311,7 @@ The following table provides relevant details on the data available in the downl
 
 *Keep in mind that while per capita consumption is available for all building use types, it may not be appropriate for non residential use type categories.
   
-### How do I download the data or vizualiasions from the Profiles page?
+### How do I download the data or the visualizations from the Profiles page?
 
 For data specific to the current view in the Profiles page, users can use the download options available in the upper right-hand corner of the Profiles page.
 
