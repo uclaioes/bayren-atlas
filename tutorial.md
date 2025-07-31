@@ -278,11 +278,13 @@ A data download preview will appear beflow the filter options and the download b
 
 ![Screenshot of the top of the Data Download Preview for Alameda County with Multi-Family use type, Building Type, all months, and the year of 2021 selected.]({{ "/assets/images/tutorial/tutorial-download-preview.png" | relative_url }})
 
-Selecting the blue "Download Data Table" button will open a window that gives the option to download the data as an Excel workbook or a comma separated values (CSV) file. Select "Bay Area Energy Atlas Data Download." If you have entered the Data Downlaod through the Profiles page, unselect "Return to Prof," which, as the navigation back to the Profiles page, does not contain any relevant data.
+Selecting the blue "Download Data Table" button will open a window that gives the option to download the data as an Excel workbook or a comma separated values (CSV) file. Select "Bay Area Energy Atlas Data Download." If you have entered the Data Download through the Profiles page, unselect "Return to Prof," which, as the navigation back to the Profiles page, does not contain any relevant data.
 
 ![Screenshot of the opened data download dialog box.]({{ "/assets/images/tutorial/tutorial-download-dialog.png" | relative_url }})
 
-| Column Header | Description | Unit |
+The following table provides relevant details on the data available in the download.
+
+| Column Name | Column Description | Column Unit |
 |---|---|---|
 | GEOID | Geographic identifier for the selected geography | Census Bureau [Geographic Identifier](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html) |
 | display name| Formatted name of the selected geography | NA |
