@@ -5,6 +5,9 @@ title: Tutorial
 
 These tutorials describe how to use the maps, adjust visualizations, and compare data across geographies on the Profiles page.
 
+## Choosing a Visualization Style
+The Bay Area Energy Atlas provides interaction with the underlying data through the map pages as well as the Profiles page. The maps enable users to view the data geospatially, whereas the Profiles page allows users to directly compare bar charts or tables for specific energy use across all available data categories (Building Type, Size, Vintage, Area Median Income, and Calenviroscreen score).
+
 ## Mapping Options
 
 ### How do I change the data displayed on the map?
@@ -13,7 +16,7 @@ There are four map views you can interact with on this website: Map by Building 
 
 Open the map of interest from:
 
-1. The Bayren home page. Select which of the four variables you would like to visualize.
+1. The Bay Area Energy Atlas home page. Select which of the four variables you would like to visualize.
 3. The Menu in the upper-right corner. Select or change maps in the top half of the menu.
 
 ### How can I customize the map?
@@ -235,8 +238,8 @@ When examining the graphs of Building Vintage, Building Size, Residential Income
 
 To get the most detailed information on the origin of masking, follow these steps:
 1. If more than one geography is selected, use the *compare* option
-2. View the profiles page as *tables*, and
-3. Choose to organize by both the relevant category and use type
+2. View the Profiles page as *tables*, and
+3. Choose to organize by both the relevant category *and* use type
 
 ![Screenshot of the Building Vintages section of the Profiles page, with the Monthly Total Electricity Consumption graph organized and colored by Vintage bracket.]({{ "/assets/images/tutorial/tutorial-profile-masked-agg-table.png" | relative_url }})
 
@@ -250,7 +253,7 @@ There are two ways in which CalEnviroscreen 4.0 data are incorporated into the a
 
    See *How do I control the visibility of map layers* for more details.
 
-2. The second is through the Profiles page. The final two graphs of the Profile page provide data on consumption and population per CalEnviroscreen 4.0 score quartiles.
+2. The second is through the Profiles page. The final two graphs of the Profiles page provide data on consumption and population per CalEnviroscreen 4.0 score quartiles.
 
     * NOTE: The population graph is not currently available pending a data processing update.
 
@@ -266,7 +269,7 @@ To download the data that drive the public atlas tool, navigate directly to the 
 
 A table icon is located in the upper right corner, among the various download options: ![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .img-icon}
 
-Clicking on the icon with redirect you to the Data Download page.
+Clicking on the icon will redirect you to the Data Download page.
 
 ![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }})
 
