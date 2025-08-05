@@ -264,7 +264,9 @@ To download the data that drive the public atlas tool, navigate directly to the 
 
 ![Screenshot of the top of the Profiles page with the tooltip for the data download navigation button open.]({{ "/assets/images/tutorial/tutorial-profile-download-nav.png" | relative_url }})
 
-You will be redirected to the Data Download page.
+A table icon is located in the upper right corner, among the various download options: ![Screenshot of the crosstab button, which is a table icon.]({{ "/assets/images/tutorial/tutorial-download-crosstab.png" | relative_url }}){: .img-icon}
+
+Clicking on the icon with redirect you to the Data Download page.
 
 ![Screenshot of the top of the Data Download page as navigated through the Profiles page.]({{ "/assets/images/tutorial/tutorial-data-download.png" | relative_url }})
 
@@ -276,7 +278,7 @@ You will be redirected to the Data Download page.
 * The next column will appear with any selection except for the Building Type data, which will allow for the selection of the secondary building category (size, vintage, and area median income).
 * The final two columns allow month and year selection. Any combination of months and years may be selected.
 
-A data download preview will appear beflow the filter options and the download button. Use this preview to validate your download. Any values of -999,999,999 indicate masking. Please refer to the FAQ or Methods document for more information on masking.
+A data download preview will appear below the filter options and the download button. Use that preview to validate your download filter choices. Any values of -999,999,999 indicate masking. Please refer to the FAQ or Methods document for more information on masking.
 
 ![Screenshot of the top of the Data Download Preview for Alameda County with Multi-Family use type, Building Type, all months, and the year of 2021 selected.]({{ "/assets/images/tutorial/tutorial-download-preview.png" | relative_url }})
 
@@ -319,23 +321,23 @@ For data specific to the current view in the Profiles page, users can use the do
 
 * This option will send users directly to the Data Download page with the currently selected geography or geographies. Use the available menu items to further filter the data if necessary (see *How do I download the data?* for more details).
 
-![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }}){: .img-icon}
-
-* PDF: Opens a dialog window to select download options. Under Include, select the part of the workbook you want to download. Select this view, specific sheets from a workbook or dashboard, or select all. Select Scaling to control the image's appearance on the PDF. Select Paper Size and Orientation.
-
-  If you're downloading a dashboard to PDF format, web page objects aren't included.
-
-![Screenshot of the crosstab button, which is an image icon.]({{ "/assets/images/tutorial/tutorial-download-image.png" | relative_url }}){: .img-icon}
-
-*  Image: Downloads an image of the view in .png format. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded image.
-
-![Screenshot of the crosstab button, which is a powerpoint icon.]({{ "/assets/images/tutorial/tutorial-download-powerpoint.png" | relative_url }}){: .img-icon}
+![Screenshot of the powerpoint button, which is a powerpoint icon.]({{ "/assets/images/tutorial/tutorial-download-powerpoint.png" | relative_url }}){: .img-icon}
 
 * PowerPoint: Download selected sheets as images on individual slides in a PowerPoint presentation.
 
   To produce individual images, rather than an image of the entire page, select *Specific sheets from this dashboard*.
 
   Any filters, parameters, or selections currently applied in Tableau are reflected in the exported presentation. The generated PowerPoint file includes a title slide with the name of your workbook and the date the file was generated. The title is a hyperlink that opens the workbook in Tableau Cloud or Tableau Server, rather than the official Bay Area Energy Atlas website.
+
+![Screenshot of the PDF button, which is a PDF icon.]({{ "/assets/images/tutorial/tutorial-download-pdf.png" | relative_url }}){: .img-icon}
+
+* PDF: Opens a dialog window to select download options. Under Include, select the part of the workbook you want to download. Select this view, specific sheets from a workbook or dashboard, or select all. Select Scaling to control the image's appearance on the PDF. Select Paper Size and Orientation.
+
+  If you're downloading a dashboard to PDF format, web page objects aren't included.
+
+![Screenshot of the image button, which is an image icon.]({{ "/assets/images/tutorial/tutorial-download-image.png" | relative_url }}){: .img-icon}
+
+*  Image: Downloads an image of the view in .png format. Any filters, parameters, or selections currently applied in Tableau are reflected in the downloaded image.
 
 <style>
   .img-icon {
