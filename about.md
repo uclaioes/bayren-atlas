@@ -54,3 +54,7 @@ The combination of data provides insights into relationships essential to the de
 ## About the CCSC
 
 The mission of the California Center for Sustainable Communities at UCLA, founded and directed by Dr. Stephanie Pincetl, is to create actionable science that improves the sustainability of urban systems. It aims to provide intellectual and conceptual frameworks for new synthesis and thinking in sustainability research for all Californians. For cities to remain habitable, profound changes need to occur both in cities themselves and in the ways they impact the surrounding landscapes and hinterlands. Achieving progress toward sustainability requires maintaining and improving both human and ecosystem well-being. Our challenge is to make cities into centers of sustainability in the ways they develop and redevelop beyond the next century.
+
+Website: [www.ioes.ucla.edu/ccsc](https://www.ioes.ucla.edu/ccsc/)
+
+Email: ccsc@ioes.ucla.edu
