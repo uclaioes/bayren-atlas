@@ -305,7 +305,7 @@ The following table provides relevant details on the data available in the downl
 | btu_median | Median combined consumption in BTUs | BTU |
 | btu_per_sqft_median | Median per square foot combined consumption in BTUs | BTU/sqft |
 | btu_percap* | Per capita combined consumption in BTUs| BTU/population |
-| kwh | Total electricty consumption in kWh | kWh |
+| kwh | Total electricity consumption in kWh | kWh |
 | kwh_median | Median electricity consumption in kWh | kWh |
 | kwh_per_sqft_median | Median electricity consumption per square foot in kWh | kWh/sqft |
 | kwh_percap* | Per Capita electricity consumption in kWh | kWh/population |
