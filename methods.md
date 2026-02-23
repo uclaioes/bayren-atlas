@@ -75,7 +75,7 @@ Building Use Types are determined from standardized land use codes from parcel d
 
 Unfortunately, a total consumption value is not provided by this tool due to updated masking protocol. Although reverse calculation of individual masked use types has always been impossible due to masking protocols, the total option has been removed in an abundance of caution.
 
-The energy consumption by building size map and data tables includes two usetypes: mutli-family and nonresidential (nonres). Multi-family refers to the residential use type described above. Nonres is the combined total of commercial, institutional, and other parcel use types.
+The energy consumption by building size map excludes single-family while the area median income map includes only residential building types.
 
 ### US Census/American Community Survey Data
 
