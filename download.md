@@ -20,7 +20,7 @@ Disclaimer: Validation of data is an ongoing process and we cannot guarantee dat
 
 ## Data Overview
 
-To best accommodate expected use cases, the data are available for download in two ways: (1) By aggregations as reflected in the atlas pages for all available geographies and (2) Organized by county, then by aggregations as reflected in the atlas pages, and finally by geographic level (see figure below). While Census Tracts fit neatly within county boundaries, Census Places and Zip Code Tabulation Areas in Option (2) are included in the county for which they are entirely or primarily contained.
+To best accommodate expected use cases, the data are available for download in two ways: (1) By aggregations as reflected in the atlas pages for all available geographies and (2) Organized by aggregations as reflected in the atlas pages, then by geographic level, and finally by county (see figure below). While Census Tracts fit neatly within county boundaries, Census Places and Zip Code Tabulation Areas in Option (2) are included in the county for which they are entirely or primarily contained.
 
 ![Diagram of the data download file breakdown, showing first the county, the aggregation types, and finally the geographic levels.]({{ "/assets/images/tutorial/tutorial-download-structure.png" | relative_url }})
 
