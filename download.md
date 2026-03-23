@@ -36,8 +36,8 @@ Each file contains roughly the same field structure, which is described in the t
 | month | Month of consumption | Month |
 | pop | Total population | People |
 | median_household_income | Median household income per the 2018-2022 ACS 5-Year Estimates | USD |
-| FY 2022 Income Limit Area | Relevant area as determined by HUD to identify Median Family Income for the area median income calculation. Only available in the area median datasets. | NA
-| limit_area_median_income | Median Family Income as determined by HUD per the relevant income limit area. Only available in the area median datasets. | USD |
+| *FY 2022 Income Limit Area* | Relevant area as determined by HUD to identify Median Family Income for the area median income calculation. *Only available in the area median income datasets*. | NA
+| *limit_area_median_income* | Median Family Income as determined by HUD per the relevant income limit area. *Only available in the area median income datasets*. | USD |
 | sqft | Total square footage of relevant geography and use type | Square Feet |
 | btu | Total combined consumption in BTUs | BTU |
 | btu_median | Median combined consumption in BTUs | BTU |
