@@ -12,7 +12,7 @@ Upon completing the following form, users will be sent to a data repository with
 
 For academic and reporting references, please use the following citation for the Bay Area Energy Atlas data: 
 
-California Center for Sustainable Communities (2026). Bay Area Energy Atlas. figshare. Collection. `https://doi.org/10.6084/m9.figshare.c.8245240`
+California Center for Sustainable Communities (2026). Bay Area Energy Atlas. figshare. Collection. `https://doi.org/10.6084/m9.figshare.31807846`
 
 Please be aware that these datasets can and will be updated over time as data or technology improvements allow. Updates will be noted when they occur. Please read the Methods page and Limitations section to better understand how this data can be used and areas of embedded error.
 
