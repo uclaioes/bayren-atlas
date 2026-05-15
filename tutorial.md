@@ -6,7 +6,7 @@ title: Tutorial
 These tutorials describe how to use the maps, adjust visualizations, and compare data across geographies on the Profiles page.
 
 ## Choosing a Visualization Style
-The Bay Area Energy Atlas provides interaction with the underlying data through the map pages as well as the Profiles page. The maps enable users to view the data geospatially, whereas the Profiles page allows users to directly compare bar charts or tables for specific energy use across all available data categories (Building Type, Size, Vintage, Area Median Income, and Calenviroscreen score).
+The Bay Area Energy Atlas provides interaction with the underlying data through the map pages as well as the Profiles page. The maps enable users to view the data geospatially, whereas the Profiles page allows users to directly view, compare, and aggregate data for specific energy use across all available data categories (Building Type, Size, Vintage, Area Median Income, and Calenviroscreen score).
 
 ## Mapping Options
 
@@ -27,45 +27,45 @@ For each map, use the drop-down options above the map to customize what you woul
 
 ![Screenshot of the Building Type map view set to show the total electricity consumption of buildings categorized as Single-Family by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }})
 
-* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
+* The leftmost dropdown controls the geographical scale, including Census Tracts, Cities, Zip Code Tabulation Areas, Unincorporated Counties, and Counties.
 * The second dropdown menu allows for selection of the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The third denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The fourth menu displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Unknown.
 * The final two menus allow month and year selection. Any combination of months and years may be selected. 
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. Multiple selections will also trigger a boxplot in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
   
 #### **Map by Building Size**
 
 ![Screenshot of toolbar in Building Size map view set to show the total electricity consumption of buildings categorized as Single-Family and sized 1-10k sq. ft. by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-sqft-map-page.png" | relative_url }})
 
-* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
+* The leftmost dropdown controls the geographical scale, including Census Tracts, Cities, Zip Code Tabulation Areas, Unincorporated Counties and Counties.
 * The second dropdown menu allows for selection of the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 The third column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The fourth menu displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Other, and Unknown.
 * The fifth dropdown allows you to select the building square footage: 0-10k sq. ft., 10k-20k sq. ft., 20k-30k sq. ft., 30k-40k sq. ft., 40k-50k sq. ft., Over 50k sq. ft., and Unknown.
 * The final two columns allow month and year selection. Any combination of months and years may be selected.
   
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. Multiple selections will also trigger a boxplot in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
       
 #### **Map by Building Vintage**
 
 ![Alt text: Screenshot of toolbar in Building Vintage map view set to show the total electricity consumption of buildings categorized as Single-Family and built 1978-1989 by Counties for all months and all years.]({{ "/assets/images/tutorial/tutorial-vint-map-page.png" | relative_url }})
 
-* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
+* The leftmost dropdown controls the geographical scale, including Census Tracts, Cities, Zip Code Tabulation Areas, Unincorporated Counties and Counties.
 * The second dropdown menu allows for selection of the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The third menu denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The fourth menu displays the specific building category, which includes the following: Agricultural, Commercial, Industrial, Institutional, Multi-Family, Single-Family, Other, and Unknown.
 * The fifth dropdown allows you to select the time period in which buildings were built: Before 1949, 1950-1977, 1978-1989, After 1990, and Unknown.
 * The final two columns allow month and year selection. Any combination of months and years may be selected.
 
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. That will also occur in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
+    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (*Median, Median Per Sq. Ft., Per Capita*), the values displayed in the map will show the monthly median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. Multiple selections will also trigger a boxplot in the time series graph when the *aggregate* option is selected. When *Total* is selected, the map and graphs will display the sum over the time periods selected.
 
 #### **Map by Residential Income**
 
-![Screenshot of toolbar in Residential Income map view set to show the total electricity consumption of buildings categorized as Multi-Family representing 80-100% of the Median Family Income by Census Places for all months and all years.]({{ "/assets/images/tutorial/tutorial-ami-map-page.png" | relative_url }})
+![Screenshot of toolbar in Residential Income map view set to show the total electricity consumption of buildings categorized as Multi-Family representing 80-100% of the Median Family Income by Cities for all months and all years.]({{ "/assets/images/tutorial/tutorial-ami-map-page.png" | relative_url }})
 
-* The leftmost dropdown controls the geographical scale, including Census Tracts, Census Places, and Zip Code Tabulation Areas.
+* The leftmost dropdown controls the geographical scale, including Census Tracts, Cities, and Zip Code Tabulation Areas.
 * The second dropdown menu allows for selection of the frequency distribution, by changing to Total, Median, Median per square foot, and Per Capita.
 * The third column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The fourth menu displays the specific building category, which includes the following: Multi-Family and Single-Family.
@@ -89,19 +89,15 @@ While all layers are technically available to toggle off and on, we recommend ma
 
 ![Screenshot of the Building Type map with the Layer Control menu open in the upper left side of the map area. Both DAC Census Tracts and Non-DAC Census Tracts layers are made visible. The Map is zoomed into a census tract in San Francisco County with the tooltip open, showing the name of the census tract as well as the CalEnviroscreen percentile score.]({{ "/assets/images/tutorial/tutorial-bld-dac-hover.png" | relative_url }})
 
-Map layers of DAC and Non-DAC census tracts derived from CalEnviroscreen 4.0 are available as context layers. When turned on, their their tooltips will be prioritized upon hover. These map overlays are available separately to increase the flexibility of the layer control.
+Map layers of DAC and Non-DAC census tracts derived from CalEnviroscreen 4.0 are available as context layers. When turned on, their tooltips will be prioritized upon hover. These map overlays are available separately to increase the flexibility of the layer control.
 
 ### How can I interact with the maps?
 
 Each interactive map will have shared and unique variables available for adjustment at the top of the window. The options are described in the section *How can I customize the map?*
 
-In addition to the filter selections available at the top of the map, there is a menu of extra map controls below the legend. When viewing the map, you can use the “Filter Census Tracts by County” dropdown to view the census tracts that lie completely within a county of interest, as well as the Census Places and Zip Code Tabulation areas that intersect a county of interest. 
+In addition to the filter selections available at the top of the map, there is a menu of extra map controls below the legend. When viewing the map, you can use the “Filter to: [County]” dropdown to view only the geographies that intersect or lie completely within a county of interest. 
 
 ![Screenshot of the Building Type map with a dotted blue outline around the Extra Map Controls available near the top right corner of the map page below the legend.]({{ "/assets/images/tutorial/tutorial-bld-map-page.png" | relative_url }})
-
-When viewing Census Places, a second filter will appear that allows filtering based on whether or not the geography is incorporated or unincorporated.
-
-![Screenshot of the Building Type map organized by census places with the Extra Map Controls available near the top right corner of the map page below the legend. The census places filter for incorporation status is visible.]({{ "/assets/images/tutorial/tutorial-bld-extra-map-controls.png" | relative_url }})
 
 Below the filters is an option to show and hide map labels, which may be useful when examining consumption of the more granular geography levels.
 
@@ -143,7 +139,7 @@ When aggregating, a single graph will display while maintaining separate data su
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected with the aggregate option open. A tooltip for 2017 for all selected geographies is populated.]({{ "/assets/images/tutorial/tutorial-bld-aggregate-tooltip.png" | relative_url }})
 
-* NOTE: When viewing consumption as a statistic (*median, median per sq. ft., per capita*) in the aggregation state for multiple geographies, the graph values will display the median of the monthly statistical value (i.e. median of monthly per capita values). This happens because the statistical values are precomputed in the confidential backend of the database.
+* NOTE: When viewing consumption as a statistic (*median, median per sq. ft., per capita*) in the aggregation state for multiple geographies, a boxplot will be triggered.
 
 #### **How do I interpret masking in the graph?**
 
@@ -163,7 +159,7 @@ This feature is meant to maintain transparency as aggreggations in the public at
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the population of the bar graphs and summaries below the map. A tooltip for 2019 of Alameda County is populated.]({{ "/assets/images/tutorial/tutorial-bld-graph-hover.png" | relative_url }})
 
-When hovering over the year value in the x-axis of the graph, the aggregate consumption value for the entire year will display in the tooltip.
+Selections in the graph are available when viewing the *Total* value of a metric. When hovering over the year value in the x-axis of the graph, the aggregate consumption value for the entire year will display in the tooltip.
 
 To aggregate specific months and years of interest for the tooltip, you can:
 
@@ -178,7 +174,7 @@ To clear the selection, click on any white space within the graph window or begi
 
 ### How do I enter the Profiles page through the map?
 
-With at least one geography selected, a “View Profile” or “View Profiles” button will appear in the top left of the data summary window, which will take you to the Profiles page with your geographies selected. 
+With at least one geography selected, a “Go to Profile” or “Go to Profiles” button will appear in the top left of the data summary window, which will take you to the Profiles page with your selected geographies. 
 
 ![Screenshot of the Building Type map page with Sonoma County and Alameda County selected along with the bar graphs and summaries below the map. A tooltip displays near the "Go to Profiles" button.]({{ "/assets/images/tutorial/tutorial-bld-go-profiles.png" | relative_url }})
 
@@ -192,18 +188,16 @@ More information on the Profiles page is available in the next section.
 
 ### How do I compare profiles?
 
-If you have selected a geography from a map, and navigate to the Profiles page via the View Profiles button, all the available visualizations and data summaries in the Profiles page will be populated with the selection.
+If you have selected a geography from a map, and navigate to the Profiles page via the *Go to Profiles* button, all the available visualizations and data summaries in the Profiles page will be populated with the selection.
 
 You can also navigate to the Profiles page independently of the map, by using the Menu in the upper-right corner of the window. When you enter the Profiles page without a map selection, the graphs will be unpopulated until a selection is made in the map or the top filters.
 
 ![Screenshot of the very top of the Profiles page, showing the filter selection bar, the map, and the data summaries of the selected geographies.]({{ "/assets/images/tutorial/tutorial-profiles-page.png" | relative_url }})
 
-* The leftmost dropdown filters the geographical scale, including Census Tracts, Census Places, Zip Code Tabulation Areas, and Counties.
-* The second option allows you to choose specific geographies to compare. This dropdown will update depending on the selected geographic level as well as the county filter. 
+* The leftmost dropdown filters the geographical scale, including Census Tracts, Cities, Zip Code Tabulation Areas, Unincorporated Counties and Counties.
+* The second option allows you to choose specific geographies to select. This dropdown will update depending on the selected geographic level as well as the county filter. 
 * The next column denotes the energy type: Electricity Consumption (kWh), Combined Consumption (Btu), and Natural Gas Consumption (therms).
 * The following two columns allow month and year selection. Any combination of months and years may be selected. 
-
-    * NOTE: When multiple months and/or multiple years are selected for a statistical distribution (Median, Median Per Sq. Ft., Per Capita), the values displayed in visualizations will show the median of those values for the time periods selected. This happens because the statistical values are precomputed in the confidential backend of the database. When Total is selected, the map and graphs will display the sum over the time periods selected. 
 
 Below the Demographics information, you are given the option to choose the analysis mode and the results view:
 * Choose whether to compare or aggregate the data for the selected geographies.
@@ -257,7 +251,7 @@ There are two ways in which CalEnviroscreen 4.0 data are incorporated into the a
 
     * NOTE: The population graph is not currently available pending a data processing update.
 
-Because Census Places and Zip Code Tabulation Areas do not necessarily align with Census Tracts, these visualizations will only populate when viewing Census Tracts or Counties.
+Because Cities and Zip Code Tabulation Areas do not necessarily align with Census Tracts, these visualizations will only populate when viewing Census Tracts or Counties.
 
 ## Downloading data
 
